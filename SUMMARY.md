@@ -21,7 +21,10 @@
       * [Git](theory/computer-science/technologies/version-control/git.md)
 * [Electronics](theory/electronics.md)
 * [Math](theory/math.md)
-* [Network](theory/network.md)
+* [Network](theory/network/README.md)
+  * [Tools](theory/network/tools/README.md)
+    * [Packet Analysis](theory/network/tools/packet-analysis/README.md)
+      * [Wireshark](theory/network/tools/packet-analysis/wireshark.md)
 
 ## Hands on
 
