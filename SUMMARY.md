@@ -28,8 +28,21 @@
 
 ## Hands on
 
-* [CyberSecurity](hands-on/cybersecurity.md)
 * [ComputerScience](hands-on/computerscience.md)
+* [CyberSecurity](hands-on/cybersecurity/README.md)
+  * [I) Application security](hands-on/cybersecurity/i-application-security.md)
+  * [II) Career development](hands-on/cybersecurity/ii-career-development.md)
+  * [III) Frameworks and standards](hands-on/cybersecurity/iii-frameworks-and-standards.md)
+  * [IV) Governance](hands-on/cybersecurity/iv-governance.md)
+  * [V) Physical security](hands-on/cybersecurity/v-physical-security.md)
+  * [VI) Risk management](hands-on/cybersecurity/vi-risk-management.md)
+  * [VII) Security architecture](hands-on/cybersecurity/vii-security-architecture.md)
+  * [VIII) Security Operations](hands-on/cybersecurity/viii-security-operations/README.md)
+    * [Investigations](hands-on/cybersecurity/viii-security-operations/investigations/README.md)
+      * [Page 1](hands-on/cybersecurity/viii-security-operations/investigations/page-1.md)
+      * [Phishy v1](hands-on/cybersecurity/viii-security-operations/investigations/phishy-v1.md)
+  * [IX) Threat intelligence](hands-on/cybersecurity/ix-threat-intelligence.md)
+  * [X) User Education](hands-on/cybersecurity/x-user-education.md)
 * [Electronics](hands-on/electronics.md)
 * [Math](hands-on/math.md)
 * [Network](hands-on/network.md)

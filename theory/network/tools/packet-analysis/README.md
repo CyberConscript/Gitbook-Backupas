@@ -53,3 +53,24 @@ Each of these methods has its advantages and considerations in terms of network 
 
 <figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
+
+
+
+
+
+
+## Wireless
+
+When it comes to a wireless card; there are four types of modes that we can refer to, and they are as follows:
+
+1. Ad-hoc – In this mode, the nodes are connected directly to each other, and there is no Access Point or Base Station.
+2. Managed mode – In this mode, every node is a connection to the Access Point or Base Station. This is the mode that most users are in because it is the mode when you are connected.
+3. Master mode – In this mode, a node acts as an Access Point, and other nodes can connect to it.
+4. Monitor mode – In this mode, the nodes are not connected to the network, and this is the equivalent of our promiscuous mode from our wired network discussion.
+
+
+
+With our wireless network cards, the main thing is the chipset; we want to ensure our chipset provides us with our required capabilities. There are multiple chips that will support all of the required features for wireless hacking and penetration testing: [https://www.kalilinux.in/2022/04/wifi-adapter-for-kali-linux.html](https://www.kalilinux.in/2022/04/wifi-adapter-for-kali-linux.html)
+
+
+
