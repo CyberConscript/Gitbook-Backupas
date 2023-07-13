@@ -45,4 +45,6 @@
   * [X) User Education](hands-on/cybersecurity/x-user-education.md)
 * [Electronics](hands-on/electronics.md)
 * [Math](hands-on/math.md)
-* [Network](hands-on/network.md)
+* [Network](hands-on/network/README.md)
+  * [Network discovery](hands-on/network/network-discovery/README.md)
+    * [Scanning and Identifying Network Nodes](hands-on/network/network-discovery/scanning-and-identifying-network-nodes.md)
