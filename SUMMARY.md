@@ -47,4 +47,5 @@
 * [Math](hands-on/math.md)
 * [Network](hands-on/network/README.md)
   * [Network discovery](hands-on/network/network-discovery/README.md)
+    * [Intercepting and Interpreting Network Traffic with Packet Sniffing Tools](hands-on/network/network-discovery/intercepting-and-interpreting-network-traffic-with-packet-sniffing-tools.md)
     * [Scanning and Identifying Network Nodes](hands-on/network/network-discovery/scanning-and-identifying-network-nodes.md)
