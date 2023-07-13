@@ -183,3 +183,27 @@ DNS provides name resolution to internal networks as well as the Internet. DNS i
     * aa indicates that the answer is authoritative. The "AUTHORITY" section of the response is empty. Contents for this section are commonly omitted by name servers to reduce the size of responses.
     * ra indicates that recursion is available; that is, this router will forward queries to other servers.
 5. &#x20;Close the terminal window.
+
+### Comprehensive questions <a href="#comprehensive-questions" id="comprehensive-questions"></a>
+
+Answer the following final comprehensive questions to ensure that you recognize the importance of the activity steps and the uses for the information you have learned.
+
+1.  Which of the following answers correctly summarizes the steps in this activity?
+
+    Identified the Kali Linux and Windows servers, broke the network's wireless encryption key, intercepted data packets, used banner grabbing to identify services.\
+    Identified the Kali Linux and Windows servers, performed basic scans of the network, dentified hosts and services, used banner grabbing to identify services, gathered more DNS information.\
+    Cracked the domain administrator's password, performed basic scans of the network, cleared log files, intercepted data packets.Used a phishing attack to gain the administrator's password, used banner grabbing to identify services, identified hosts and services, cleared log files.
+2.  Which of the following answers best identifies how an administrator might use the information gathered during this activity?
+
+    To audit passwords.\
+    To configure centralized log files/SIEM information.\
+    To troubleshoot Internet access.\
+    \*To verify expected network and server configurations.
+3.  Which of the following answers best identifies how an attacker might use the information gathered during this activity? (Select three)
+
+    \*To decide what servers to attack\
+    To crack passwords.\
+    \*To check for old services that may be unpatched.\
+    \*To map the network in preparation for an attack.\
+    To launch a phishing attack.
+
