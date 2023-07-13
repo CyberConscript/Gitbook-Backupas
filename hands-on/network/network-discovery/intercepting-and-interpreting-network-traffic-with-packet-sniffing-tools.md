@@ -1,10 +1,10 @@
 # Intercepting and Interpreting Network Traffic with Packet Sniffing Tools
 
-### Scenario <a href="#scenario" id="scenario"></a>
+## Scenario <a href="#scenario" id="scenario"></a>
 
 In this activity, you will use Wireshark and tcpdump to capture network traffic and display relevant information on the local network. Interpreting the output from such captures is useful for security assessments.
 
-### Sniff network traffic <a href="#sniff-network-traffic" id="sniff-network-traffic"></a>
+## Sniff network traffic <a href="#sniff-network-traffic" id="sniff-network-traffic"></a>
 
 Use the Kali Linux virtual machine to capture some network traffic and identify the main features of the Wireshark network analyzer. You'll assume that KALI has been able to obtain some sort of network tap, which has been simulated for you already by configuring port mirroring on the Hyper-V switch.
 
@@ -55,7 +55,7 @@ Use the Kali Linux virtual machine to capture some network traffic and identify 
 
 
 
-### Use tcpdump to intercept HTTP network traffic <a href="#use-tcpdump-to-intercept-http-network-traffic" id="use-tcpdump-to-intercept-http-network-traffic"></a>
+## Use tcpdump to intercept HTTP network traffic <a href="#use-tcpdump-to-intercept-http-network-traffic" id="use-tcpdump-to-intercept-http-network-traffic"></a>
 
 The **tcpdump** program is another protocol analyzer (packet sniffer). In this activity, you will use **tcpdump** to intercept HTTP traffic.
 
@@ -98,3 +98,34 @@ The **tcpdump** program is another protocol analyzer (packet sniffer). In this a
 Correct
 
 > HTTP packets are unencrypted and therefore vulnerable to packet sniffing.
+
+## Use tcpdump to intercept SSH network traffic <a href="#use-tcpdump-to-intercept-ssh-network-traffic" id="use-tcpdump-to-intercept-ssh-network-traffic"></a>
+
+You will use **tcpdump** to intercept SSH network traffic and attempt to display contents of the traffic. You will use an SSH connection to the 10.1.0.10 IP address. This address is assigned to the **LX1** virtual machine, which runs the CentOS 7 Linux distribution.
+
+1.  &#x20;On the [PT1-Kali](https://labclient.labondemand.com/Instructions/a37a36cc-aba2-494b-8f4b-dd8d25cee668?rc=10) VM, run the following command to begin intercepting SSH network traffic by using tcpdump:
+
+    ```bash-notab-nocopy
+    tcpdump -vv dst 10.1.0.10 and port ssh -w ssh.pcap
+    ```
+2.  &#x20;Open a second Terminal window and then run the following command:
+
+    ```bash-notab-nocopy
+    ssh root@10.1.0.10
+    ```
+3. &#x20;Enter yes to confirm the connection attempt, and then enter Pa\$$w0rd as the password.
+4. &#x20;Run the hostname and whoami commands to confirm you are the root user on the LX1 remote system.
+5. &#x20;Run the exit command to disconnect from the remote system.
+6. &#x20;Switch to the terminal window hosting tcpdump and then press **Ctrl+C** to stop the capture.
+7. &#x20;Switch to the **Wireshark** application. If you closed the program, launch it again from the desktop.
+8.  &#x20;Select the **File** menu, and then open the **ssh.pcap** file from the root user's home directory.
+
+    This is the same task you did above with the www.pcap file.
+9.  &#x20;Spend a few minutes browsing the captured SSH information.
+
+    Specifically, do you find any authentication credentials? Also notice details such as the source and destination port numbers, etc.
+10. Were you able to read information about the root user, such as the password?
+
+    YesNo
+
+Correct
