@@ -71,3 +71,135 @@ The scan scope is the range of hosts or IP addresses that will be assessed. Crea
    * Credentials—from the SMB list box, select **515support**.
 4. &#x20;Select **Create**.
 
+
+
+### Configure scan schedule <a href="#configure-scan-schedule" id="configure-scan-schedule"></a>
+
+Configure the scan to run on a set schedule.
+
+1. &#x20;From the **Configuration** menu, select **Schedules**.
+2. &#x20;Select the blue star icon on the left to open the New Schedule web dialog box.
+3. &#x20;Complete the dialog box with the following information:
+   * Name—515support—Daily
+   * First Time—set to the current time
+   * Period—**1 day**
+   * Duration—**1 hour**
+4.  &#x20;Select **Create**.
+
+    > Vulnerability scanning can be disruptive so it is more typical to schedule it for out-of-office hours. On a production network you may also need some mechanism of powering on computers remotely.
+
+
+
+
+
+### Configure scan task <a href="#configure-scan-task" id="configure-scan-task"></a>
+
+Create a task object to complete the configuration, and then run the scan task.
+
+1.  &#x20;From the **Scans** menu, select **Tasks**.
+
+    You may close the "Welcome to the scan task" dialog box that opens.
+2. &#x20;Select the blue star icon on the left to open the _New Task_ web dialog box.
+3. &#x20;Complete the dialog box with the following information:
+   * Name—515support—Full and Fast—Daily
+   * Scan Targets—**515support**
+   * Schedule—**515support—Daily**
+   * Scan Config—**Full and fast**
+4.  &#x20;Select **Create**.
+
+    You will run the scan manually to ensure that it works as expected.
+5. &#x20;Under Name at the bottom of the screen, select the **515support—Full and Fast—Daily** task.
+6. &#x20;Select the **Start** green arrow button to run the scan manually.
+
+
+
+### Browse OpenVAS scan report <a href="#browse-openvas-scan-report" id="browse-openvas-scan-report"></a>
+
+Now that you have begun a scan, you need to let it run for a three to four minutes. You can open the report results, even if the scan is not complete.
+
+1. &#x20;From the No auto-refresh box in the green header bar, select **Refresh every 30 seconds**. Let the scan continue to execute while you complete the next step.
+2.  &#x20;In the Greenbone web app, select the **Dashboard** link to display current information. The scan is running.
+
+    Let it run for three-four minutes to begin generating report entries.
+
+    > Optionally, you may take a few minutes to browse the default scan configurations (select **Configuration > Scan Configs**. The scan configuration determines the type of tests and probes that are run. Running more detailed tests takes longer, and can carry more risk of crashing the target host.
+3.  &#x20;Select **Scans > Reports**.
+
+    You can use this screen to monitor the status of tasks and preview scan results even if the task is not complete.
+4.  &#x20;In the **Date** column at the bottom of the Reports page, select the task with today's date to view the results.
+
+    If there are no entries in the report yet, wait a few more minutes. The scan results need to show at least one entry in either High, Medium, or Low Scan Results.
+
+    > Refresh the scan's results regularly.
+5. &#x20;Browse the report, and specifically observe the CVE entries.
+6.  &#x20;From the small triangle pull down menu by the "Report:Results" title, choose **Report:Hosts** to display the discovered hosts and their related vulnerability information.
+
+    Observe that the same hosts you discovered using the scanning tools in previous labs were also detected in this activity.
+
+    Save the scan results as a compliance check report for use as part of the security audit.
+7. &#x20;In the pull-down menu at the upper left of the page, select **HTML** (the menu current reads **Anonymous XML**), and then select the green **Download filtered Report** button.
+8. &#x20;When prompted, select **Save File** to download the report to the default **Downloads** folder.
+9. Confirm the HTML report file exists.
+
+
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2020-11-07 at 9.19.09 AM.png" alt=""><figcaption></figcaption></figure>
+
+### Browse OpenVAS scan report <a href="#browse-openvas-scan-report" id="browse-openvas-scan-report"></a>
+
+Now that you have begun a scan, you need to let it run for a three to four minutes. You can open the report results, even if the scan is not complete.
+
+1. &#x20;From the No auto-refresh box in the green header bar, select **Refresh every 30 seconds**. Let the scan continue to execute while you complete the next step.
+2.  &#x20;In the Greenbone web app, select the **Dashboard** link to display current information. The scan is running.
+
+    Let it run for three-four minutes to begin generating report entries.
+
+    > Optionally, you may take a few minutes to browse the default scan configurations (select **Configuration > Scan Configs**. The scan configuration determines the type of tests and probes that are run. Running more detailed tests takes longer, and can carry more risk of crashing the target host.
+3.  &#x20;Select **Scans > Reports**.
+
+    You can use this screen to monitor the status of tasks and preview scan results even if the task is not complete.
+4.  &#x20;In the **Date** column at the bottom of the Reports page, select the task with today's date to view the results.
+
+    If there are no entries in the report yet, wait a few more minutes. The scan results need to show at least one entry in either High, Medium, or Low Scan Results.
+
+    > Refresh the scan's results regularly.
+5. &#x20;Browse the report, and specifically observe the CVE entries.
+6.  &#x20;From the small triangle pull down menu by the "Report:Results" title, choose **Report:Hosts** to display the discovered hosts and their related vulnerability information.
+
+    Observe that the same hosts you discovered using the scanning tools in previous labs were also detected in this activity.
+
+    Save the scan results as a compliance check report for use as part of the security audit.
+7. &#x20;In the pull-down menu at the upper left of the page, select **HTML** (the menu current reads **Anonymous XML**), and then select the green **Download filtered Report** button.
+8. &#x20;When prompted, select **Save File** to download the report to the default **Downloads** folder.
+9.  Confirm the HTML report file exists.
+
+    Correct
+
+<details>
+
+<summary>Save the scan.</summary>
+
+
+
+
+
+
+
+Ensure that you saved the scan report to the correct location and with the specified file name.
+
+</details>
+
+### Comprehensive questions <a href="#comprehensive-questions" id="comprehensive-questions"></a>
+
+Answer the following final comprehensive questions to ensure that you recognize the importance of the activity steps and the uses for the information you have learned.
+
+1.  Which of the following answers best describes the process during this activity?
+
+    Registered discovered vulnerabilities with the CVE database.Used Windows Defender to scan a standalone workstation for vulnerabilities.Created and scheduled a credentialed vulnerability scan task and saved the results.Used a network mapper and protocol analyzer (packet sniffer) to understand the network topology and intercept network traffic.
+
+* Correct
+*   Which of the following answers best describes a CVE?
+
+    A specific ransomware attack.Microsoft's online repository of known vulnerabilities.A reference for publicly-known vulnerabilities.An open-source vulnerability scanning utility.
+
+Correct
