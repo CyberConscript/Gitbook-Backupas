@@ -39,6 +39,7 @@
   * [VII) Security architecture](hands-on/cybersecurity/vii-security-architecture.md)
   * [VIII) Security Operations](hands-on/cybersecurity/viii-security-operations/README.md)
     * [Investigations](hands-on/cybersecurity/viii-security-operations/investigations/README.md)
+      * [Installing, Using, and Blocking a Malware-based Backdoor](hands-on/cybersecurity/viii-security-operations/investigations/installing-using-and-blocking-a-malware-based-backdoor.md)
       * [Page 1](hands-on/cybersecurity/viii-security-operations/investigations/page-1.md)
       * [Phishy v1](hands-on/cybersecurity/viii-security-operations/investigations/phishy-v1.md)
   * [IX) Threat intelligence](hands-on/cybersecurity/ix-threat-intelligence.md)
