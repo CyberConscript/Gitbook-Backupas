@@ -9,3 +9,7 @@ coverY: 0
 ## Welcome to CyberConscript's journal
 
 Here you'll find my personal notes on various technology related topics including theory and lab notes.
+
+
+
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
