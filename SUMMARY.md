@@ -42,6 +42,7 @@
       * [Certificates with OpenSSL](hands-on/cybersecurity/vii-security-architecture/certificates/certificates-with-openssl.md)
     * [Hardening](hands-on/cybersecurity/vii-security-architecture/hardening/README.md)
       * [Secure Network Addressing Services](hands-on/cybersecurity/vii-security-architecture/hardening/secure-network-addressing-services.md)
+      * [Implementing a Secure SSH Server](hands-on/cybersecurity/vii-security-architecture/hardening/implementing-a-secure-ssh-server.md)
       * [Implementing a Virtual Private Network](hands-on/cybersecurity/vii-security-architecture/hardening/implementing-a-virtual-private-network.md)
       * [Examine Administrator account properties](hands-on/cybersecurity/vii-security-architecture/hardening/examine-administrator-account-properties.md)
   * [VIII) Security Operations](hands-on/cybersecurity/viii-security-operations/README.md)
