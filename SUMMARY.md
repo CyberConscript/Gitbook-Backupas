@@ -43,6 +43,7 @@
     * [Certificates](hands-on/cybersecurity/vii-security-architecture/certificates/README.md)
       * [Certificates with OpenSSL](hands-on/cybersecurity/vii-security-architecture/certificates/certificates-with-openssl.md)
     * [Hardening](hands-on/cybersecurity/vii-security-architecture/hardening/README.md)
+      * [Managing Centralized Authentication](hands-on/cybersecurity/vii-security-architecture/hardening/managing-centralized-authentication.md)
       * [Configuring Mitigation Controls](hands-on/cybersecurity/vii-security-architecture/hardening/configuring-mitigation-controls.md)
       * [Auditing Passwords with a Password Cracking Utility](hands-on/cybersecurity/vii-security-architecture/hardening/auditing-passwords-with-a-password-cracking-utility.md)
       * [Secure Network Addressing Services](hands-on/cybersecurity/vii-security-architecture/hardening/secure-network-addressing-services.md)
