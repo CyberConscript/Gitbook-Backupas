@@ -57,7 +57,7 @@
   * [VIII) Security Operations](hands-on/cybersecurity/viii-security-operations/README.md)
     * [Investigations](hands-on/cybersecurity/viii-security-operations/investigations/README.md)
       * [Installing, Using, and Blocking a Malware-based Backdoor](hands-on/cybersecurity/viii-security-operations/investigations/installing-using-and-blocking-a-malware-based-backdoor.md)
-      * [Page 1](hands-on/cybersecurity/viii-security-operations/investigations/page-1.md)
+      * [Identifying Malicious Code](hands-on/cybersecurity/viii-security-operations/investigations/identifying-malicious-code.md)
     * [Pentesting](hands-on/cybersecurity/viii-security-operations/pentesting/README.md)
       * [Performing Network Reconnaissance](hands-on/cybersecurity/viii-security-operations/pentesting/performing-network-reconnaissance.md)
   * [IX) Threat intelligence](hands-on/cybersecurity/ix-threat-intelligence.md)
