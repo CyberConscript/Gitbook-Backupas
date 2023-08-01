@@ -56,6 +56,7 @@
       * [Examine Administrator account properties](hands-on/cybersecurity/vii-security-engineering/hardening/examine-administrator-account-properties.md)
   * [VIII) Security Operations](hands-on/cybersecurity/viii-security-operations/README.md)
     * [Investigations](hands-on/cybersecurity/viii-security-operations/investigations/README.md)
+      * [Acquiring Digital Forensics Evidence](hands-on/cybersecurity/viii-security-operations/investigations/acquiring-digital-forensics-evidence.md)
       * [Installing, Using, and Blocking a Malware-based Backdoor](hands-on/cybersecurity/viii-security-operations/investigations/installing-using-and-blocking-a-malware-based-backdoor.md)
       * [Identifying Malicious Code](hands-on/cybersecurity/viii-security-operations/investigations/identifying-malicious-code.md)
       * [Application Attack Indicators](hands-on/cybersecurity/viii-security-operations/investigations/application-attack-indicators.md)
