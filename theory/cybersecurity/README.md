@@ -86,18 +86,18 @@ Information and cybersecurity assurance is usually considered to take place with
 
 Security controls are measures or safeguards implemented to protect information systems and data from various threats and risks. They can be categorized into several different types based on their purpose and functionality. Here are some common types of security controls:
 
-1. **Administrative Controls**:
+1. **Administrative Controls**: also known as managerial or organizational controls, are security measures that focus on human behavior and management practices to reduce risks and enhance security. These controls involve policies, procedures, guidelines, and training that guide employees and users in making secure decisions and following best practices. Administrative controls establish the framework within which security is managed across an organization. Examples include security policies, access management procedures, security awareness training programs, risk assessments, incident response plans, and employee background checks.
    * Policies and Procedures: Guidelines that define how security is managed, outlining roles, responsibilities, and processes.
    * Security Awareness Training: Educating employees about security risks and best practices to promote a security-conscious culture.
    * Access Management: Processes for granting, modifying, and revoking user access rights to systems and data.
    * Risk Management: Identifying, assessing, and mitigating risks to information systems and assets.
-2. **Technical Controls**:
+2. **Technical Controls**: security measures that involve the use of technology and tools to protect systems, data, and networks. These controls are implemented through hardware, software, and configurations to enforce security policies and prevent or detect unauthorized access and malicious activities. Technical controls include authentication mechanisms, encryption, firewalls, intrusion detection systems, antivirus software, access control lists, and security patches. They work at the system and network level to ensure security requirements are met.
    * Authentication: Verifying the identity of users, devices, or processes before granting access.
    * Encryption: Converting data into a secure format to prevent unauthorized access if the data is intercepted.
    * Firewall: A network device that monitors and filters incoming and outgoing network traffic based on defined security rules.
    * Intrusion Detection and Prevention Systems (IDS/IPS): Monitoring network traffic to detect and prevent unauthorized access or attacks.
    * Antivirus and Antimalware: Software designed to detect and remove malicious software from systems.
-3. **Physical Controls**:
+3. **Physical Controls**: security measures designed to protect physical assets, premises, and facilities. These controls focus on preventing unauthorized physical access to sensitive areas and assets. Physical controls involve measures such as locks, biometric access systems, security guards, surveillance cameras, fences, and alarms. They help safeguard physical resources like servers, data centers, offices, and equipment from theft, vandalism, and unauthorized entry.
    * Access Control Systems: Mechanisms such as biometric scanners or keycards used to control entry to physical facilities.
    * Security Cameras: Surveillance systems that monitor and record activities in physical areas.
    * Secure Facilities: Physical security measures like locks, fences, and secure rooms to protect equipment and data centers.
@@ -114,3 +114,36 @@ Security controls are measures or safeguards implemented to protect information 
    * Error Handling and Logging: Properly managing application errors and logging to prevent exposing sensitive information.
 
 These are just a few examples of the types of security controls that organizations can implement to protect their information systems and data. An effective security strategy typically involves a combination of controls from various categories to create a comprehensive defense against threats.
+
+
+
+Distribution of the CIS 20 Critical Security Controls into the different security control categories:
+
+**Managerial Controls:**
+
+* None of the CIS 20 controls are explicitly classified as Managerial Controls.
+
+**Operational Controls:**
+
+* Control 1: Inventory and Control of Hardware Assets
+* Control 2: Inventory and Control of Software Assets
+* Control 3: Continuous Vulnerability Management
+* Control 6: Maintenance, Monitoring, and Analysis of Audit Logs
+* Control 10: Data Recovery Capabilities
+* Control 11: Secure Configuration for Network Devices
+* Control 13: Data Protection
+* Control 14: Controlled Access Based on Need to Know
+* Control 16: Account Monitoring and Control
+* Control 18: Application Software Security
+* Control 19: Incident Response and Management
+* Control 20: Penetration Testing and Red Team Exercises
+
+**Technical Controls:**
+
+* Control 4: Controlled Use of Administrative Privileges
+* Control 5: Secure Configuration for Hardware and Software
+* Control 7: Email and Web Browser Protections
+* Control 8: Malware Defenses
+* Control 9: Limitation and Control of Network Ports, Protocols, and Services
+* Control 12: Boundary Defense
+* Control 15: Wireless Access Control
