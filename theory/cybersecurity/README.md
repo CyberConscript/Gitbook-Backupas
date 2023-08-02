@@ -147,3 +147,23 @@ Distribution of the CIS 20 Critical Security Controls into the different securit
 * Control 9: Limitation and Control of Network Ports, Protocols, and Services
 * Control 12: Boundary Defense
 * Control 15: Wireless Access Control
+
+
+
+## Security Control Functional Types
+
+These classifications help to understand the specific goals and functions that different security controls serve within an organization's security strategy. Here's a summary of each type:
+
+**1. Preventive Controls:** Preventive controls are designed to eliminate or reduce the likelihood of a security breach or attack. They act as barriers to prevent attackers from gaining unauthorized access. Examples include access control lists on firewalls, antivirus software blocking malicious processes, and security policies that dictate secure practices. These controls aim to stop attacks before they can succeed.
+
+**2. Detective Controls:** Detective controls focus on identifying and recording attempted or successful intrusions. While they may not prevent attacks, they provide mechanisms for detecting and alerting when security incidents occur. Examples include log monitoring, intrusion detection systems, and security cameras. These controls help in quickly identifying and responding to security breaches.
+
+**3. Corrective Controls:** Corrective controls come into play after an attack to minimize its impact. They help restore systems and data to a secure state and address the vulnerabilities exploited. Examples include backup and recovery systems, patch management to fix vulnerabilities, and incident response plans that outline steps to mitigate damage and recover from attacks.
+
+**4. Physical Controls:** Physical controls involve measures that protect physical assets, premises, and facilities. These controls include security cameras, locks, alarms, guards, and other physical barriers. They focus on preventing unauthorized physical access to sensitive areas and resources.
+
+**5. Deterrent Controls:** Deterrent controls aim to psychologically discourage potential attackers from attempting intrusions. They may not physically prevent access, but they create an environment that discourages unauthorized actions. Examples include warning signs indicating legal consequences for trespassing or intrusion.
+
+**6. Compensating Controls:** Compensating controls act as substitutes for principal controls, offering equivalent or better levels of protection using different methodologies or technologies. They are often used when it's not feasible to implement the recommended primary control. These controls ensure security requirements are met through alternative means.
+
+Understanding these functional types helps organizations tailor their security strategy by implementing a combination of controls that collectively address various aspects of security risks and vulnerabilities.

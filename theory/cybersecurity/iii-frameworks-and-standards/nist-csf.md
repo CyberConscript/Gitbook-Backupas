@@ -1,6 +1,4 @@
-# III) Frameworks and standards
-
-Cybersecurity Framework
+# NIST CSF
 
 Within the goal of ensuring information security, cybersecurity refers specifically to provisioning secure processing hardware and software. Information security and cybersecurity tasks can be classified as five functions, following the framework developed by the National Institute of Standards and Technology (NIST) ([nist.gov/cyberframework/online-learning/five-functions](https://www.nist.gov/cyberframework/online-learning/five-functions)):
 
