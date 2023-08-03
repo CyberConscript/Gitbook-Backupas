@@ -8,6 +8,8 @@
   * [I) Application security](theory/cybersecurity/i-application-security.md)
   * [II) Career development](theory/cybersecurity/ii-career-development.md)
   * [III) Frameworks and standards](theory/cybersecurity/iii-frameworks-and-standards/README.md)
+    * [Center for Internet Security (CIS)](theory/cybersecurity/iii-frameworks-and-standards/center-for-internet-security-cis.md)
+    * [OWASP](theory/cybersecurity/iii-frameworks-and-standards/owasp.md)
     * [NIST CSF](theory/cybersecurity/iii-frameworks-and-standards/nist-csf.md)
   * [IV) Governance](theory/cybersecurity/iv-governance.md)
   * [V) Physical security](theory/cybersecurity/v-physical-security.md)
