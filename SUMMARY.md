@@ -22,6 +22,7 @@
     * [Threat actors](theory/cybersecurity/ix-threat-management/threat-actors.md)
     * [Threat intelligence](theory/cybersecurity/ix-threat-management/threat-intelligence.md)
   * [X) User Education](theory/cybersecurity/x-user-education.md)
+  * [XI) Vulnerabilities](theory/cybersecurity/xi-vulnerabilities.md)
 * [Computer Science](theory/computer-science/README.md)
   * [Technologies](theory/computer-science/technologies/README.md)
     * [Version control](theory/computer-science/technologies/version-control/README.md)
