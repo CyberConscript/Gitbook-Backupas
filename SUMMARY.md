@@ -42,6 +42,7 @@
 * [Network](theory/network/README.md)
   * [Tools](theory/network/tools/README.md)
     * [Packet Analysis](theory/network/tools/packet-analysis/README.md)
+      * [Packet Injection and Replay](theory/network/tools/packet-analysis/packet-injection-and-replay.md)
       * [Packet Capture and tcpdump](theory/network/tools/packet-analysis/packet-capture-and-tcpdump.md)
       * [Wireshark](theory/network/tools/packet-analysis/wireshark.md)
 
