@@ -1,4 +1,4 @@
-# XI) Vulnerabilities
+# Vulnerabilities
 
 ## Software Vulnerabilities and Patch Management
 
@@ -64,3 +64,25 @@ Encryption algorithms safeguard stored or transferred data, requiring correct de
 **Errors**
 
 Poorly configured applications might expose unformatted error messages in certain situations. Threat actors can exploit these messages for vulnerabilities and coding errors. Secure coding practices ensure graceful failure without revealing exploitable information.
+
+
+
+## CVE
+
+The Common Vulnerabilities and Exposures (CVE) is a comprehensive database that catalogs vulnerabilities found in published operating systems and application software. The CVE, accessible at cve.mitre.org, provides detailed information about each vulnerability entry, including the following components:
+
+1. **Identifier Format**: A unique identifier assigned to each vulnerability in the format CVE-YYYY-####, where YYYY represents the year of discovery and #### indicates the sequential order of discovery.
+2. **Vulnerability Description**: A concise description outlining the nature of the vulnerability.
+3. **Reference URLs**: A list of web addresses providing additional details and information about the vulnerability.
+4. **Creation Date**: The date when the entry for the vulnerability was created.
+
+The CVE database serves as a primary source of information for the National Vulnerability Database (NVD) maintained by the National Institute of Standards and Technology (NIST) at nvd.nist.gov. The NVD enhances CVE entries by offering supplementary analysis, a criticality assessment based on the Common Vulnerability Scoring System (CVSS), and information on available fixes.
+
+The Common Vulnerability Scoring System (CVSS), managed by the Forum of Incident Response and Security Teams (FIRST) at first.org/cvss, is a standardized framework for evaluating vulnerabilities. CVSS metrics generate a score ranging from 0 to 10, which reflects various characteristics of the vulnerability. These characteristics include factors such as whether the vulnerability can be exploited remotely or requires local access, whether user intervention is necessary, and more. The scores are grouped into descriptive bands that provide further insight into the severity of the vulnerability.
+
+| Score |   Description   |
+| ----- | --------------- |
+| 0.1+  | Low             |
+| 4.0+  | Medium          |
+| 7.0+  | High            |
+| 9.0+  | Critical        |

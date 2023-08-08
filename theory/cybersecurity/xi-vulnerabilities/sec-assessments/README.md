@@ -7,3 +7,6 @@ Network reconnaissance and discovery play a crucial role in identifying hosts, n
 3. Conducting interviews with personnel to amass information and delve into their attitudes and comprehension of security matters.
 
 Commonly categorized security assessment types include vulnerability assessment, threat hunting, and penetration testing. A vulnerability assessment involves evaluating a system's security and its capacity to meet compliance mandates based on its current configuration state. Essentially, it compares the present configuration with the ideal configuration (the baseline). Vulnerability assessments can encompass manual inspection of security controls, but automated vulnerability scanners are more frequently employed for this purpose.
+
+
+
