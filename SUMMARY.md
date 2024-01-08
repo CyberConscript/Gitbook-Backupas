@@ -51,7 +51,7 @@
     * [Emails](theory/computer-science/technologies/emails.md)
 * [Electronics](theory/electronics/README.md)
   * [Arduino](theory/electronics/arduino/README.md)
-    * [Programing](theory/electronics/arduino/programing.md)
+    * [Programming](theory/electronics/arduino/programming.md)
 * [Math](theory/math.md)
 * [Network](theory/network/README.md)
   * [Tools](theory/network/tools/README.md)
