@@ -52,6 +52,8 @@
 * [Electronics](theory/electronics/README.md)
   * [Arduino](theory/electronics/arduino/README.md)
     * [Programming](theory/electronics/arduino/programming.md)
+  * [Components](theory/electronics/components/README.md)
+    * [Potentiometer](theory/electronics/components/potentiometer.md)
 * [Math](theory/math.md)
 * [Network](theory/network/README.md)
   * [Tools](theory/network/tools/README.md)
