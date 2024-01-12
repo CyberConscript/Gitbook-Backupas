@@ -16,10 +16,6 @@ Pins 0–13 on the Arduino are considered general-purpose input/output (GPIO) pi
 
 
 
-
-
-
-
 ```
 int led_red = 0; // the red LED is connected to Pin 0 of the Arduino
 int led_yellow = 1; // the yellow LED is connected to Pin 1 of the Arduino
@@ -57,3 +53,21 @@ void loop() {
 
 ## Functions
 
+```
+void setup()
+{
+pinMode(13, OUTPUT);
+}
+void loop()
+{
+blink(13, 1000);
+}
+
+void blink(int pinNumber, int delayTime)
+{
+digitalWrite(pinNumber, HIGH);
+delay(delayTime);
+digitalWrite(pinNumber, LOW);
+delay(delayTime);
+}
+```
