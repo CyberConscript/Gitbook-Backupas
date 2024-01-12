@@ -100,7 +100,7 @@
       * [Performing Network Reconnaissance](hands-on/cybersecurity/viii-security-operations/pentesting/performing-network-reconnaissance.md)
   * [IX) Threat intelligence](hands-on/cybersecurity/ix-threat-intelligence.md)
   * [X) User Education](hands-on/cybersecurity/x-user-education.md)
-* [Electronics](hands-on/electronics/README.md)
+* [Electronics](hands-on/electronics.md)
   * [Arduino](hands-on/electronics/arduino/README.md)
     * [Page](hands-on/electronics/arduino/page.md)
 * [Math](hands-on/math.md)

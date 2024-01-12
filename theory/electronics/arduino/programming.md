@@ -1,4 +1,4 @@
-# Programing
+# Programming
 
 When writing sketches in Arduino, you need to be very specific with the words, punctuation, and capitalization you use. These elements are part of a programming language’s syntax.
 
@@ -52,3 +52,8 @@ void loop() {
   delay(3000);  // wait 3 seconds        
 }
 ```
+
+
+
+## Functions
+
