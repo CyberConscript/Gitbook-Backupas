@@ -92,6 +92,8 @@
       * [Implementing a Virtual Private Network](hands-on/cybersecurity/vii-security-engineering/hardening/implementing-a-virtual-private-network.md)
       * [Examine Administrator account properties](hands-on/cybersecurity/vii-security-engineering/hardening/examine-administrator-account-properties.md)
   * [VIII) Security Operations](hands-on/cybersecurity/viii-security-operations/README.md)
+    * [Triage](hands-on/cybersecurity/viii-security-operations/triage/README.md)
+      * [Samples](hands-on/cybersecurity/viii-security-operations/triage/samples.md)
     * [Investigations](hands-on/cybersecurity/viii-security-operations/investigations/README.md)
       * [Phishing](hands-on/cybersecurity/viii-security-operations/investigations/phishing.md)
       * [Acquiring Digital Forensics Evidence](hands-on/cybersecurity/viii-security-operations/investigations/acquiring-digital-forensics-evidence.md)
