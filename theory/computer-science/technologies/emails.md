@@ -27,7 +27,7 @@ You should have noticed that both POP3 and IMAP sound same by definition. But th
 
 
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Below is an explanation of each numbered point from the above diagram:
 
@@ -75,7 +75,7 @@ Let's start with the following email header fields:
 
 ## Anti-Spoofing Records
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
