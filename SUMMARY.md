@@ -30,6 +30,7 @@
       * [IDS/IPS](theory/cybersecurity/vii-security-engineering/security-devices/ids-ips.md)
       * [Proxy](theory/cybersecurity/vii-security-engineering/security-devices/proxy.md)
     * [Sec services](theory/cybersecurity/vii-security-engineering/sec-services/README.md)
+      * [DDOS protection](theory/cybersecurity/vii-security-engineering/sec-services/ddos-protection.md)
       * [NetFlow/Sflow](theory/cybersecurity/vii-security-engineering/sec-services/netflow-sflow.md)
       * [Data loss prevention](theory/cybersecurity/vii-security-engineering/sec-services/data-loss-prevention.md)
       * [Network management systems](theory/cybersecurity/vii-security-engineering/sec-services/network-management-systems.md)
