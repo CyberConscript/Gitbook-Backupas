@@ -94,6 +94,10 @@ IPS plays a critical role in enhancing the overall security posture of networks 
 
 
 
+{% content-ref url="network-taps.md" %}
+[network-taps.md](network-taps.md)
+{% endcontent-ref %}
+
 ## WIDS
 
 Wireless Intrusion Detection System (WIDS) is a security technology designed to monitor and analyze wireless network traffic for signs of unauthorized access, security threats, or anomalous behavior. WIDS is a crucial component of wireless network security, providing organizations with the means to detect and respond to potential threats to their wireless infrastructure. Here are key aspects of Wireless Intrusion Detection:
