@@ -69,6 +69,8 @@
     * [Potentiometer](theory/electronics/components/potentiometer.md)
 * [Math](theory/math.md)
 * [Network](theory/network/README.md)
+  * [Network Segmentation](theory/network/network-segmentation/README.md)
+    * [Page 1](theory/network/network-segmentation/page-1.md)
   * [Tools](theory/network/tools/README.md)
     * [Ncat](theory/network/tools/ncat.md)
     * [Packet Analysis](theory/network/tools/packet-analysis/README.md)
