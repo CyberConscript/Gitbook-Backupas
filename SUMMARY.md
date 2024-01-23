@@ -18,6 +18,8 @@
     * [Attack surface](theory/cybersecurity/vi-risk-management/attack-surface.md)
     * [Third Party](theory/cybersecurity/vi-risk-management/third-party.md)
   * [VII) Security engineering](theory/cybersecurity/vii-security-engineering/README.md)
+    * [Segmentation](theory/cybersecurity/vii-security-engineering/segmentation/README.md)
+      * [Data segmentation](theory/cybersecurity/vii-security-engineering/segmentation/data-segmentation.md)
     * [Security devices](theory/cybersecurity/vii-security-engineering/security-devices/README.md)
       * [SIEM](theory/cybersecurity/vii-security-engineering/security-devices/siem/README.md)
         * [Splunk](theory/cybersecurity/vii-security-engineering/security-devices/siem/splunk/README.md)
