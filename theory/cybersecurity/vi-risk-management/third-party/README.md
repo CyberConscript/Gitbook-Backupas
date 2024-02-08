@@ -2,7 +2,23 @@
 
 ## **Third-Party Risks and Vendor Management**
 
+Supply chain management in cybersecurity involves ensuring the security and integrity of products and services throughout the supply chain, from the initial sourcing of components to the delivery of the final product to the end-user.  \
 The recognition of supply chain significance in vulnerability management has grown due to high-profile breaches. Products or services often comprise components developed by various companies. The chain's integrity hinges on suppliers evaluating their vendors' diligence. A weak link can result in service disruption, performance issues, or data breaches.
+
+
+
+1. **Vendor Risk Assessment**
+2. **Security Requirements in Contracts**
+3. **Third-Party Security Audits**
+4. **Supply Chain Mapping**
+5. **Secure Communication Channels**
+6. **Supplier Security Training**
+7. **Continuous Monitoring**
+8. **Secure Development Practices:**
+9. **Patch Management:**
+10. **Incident Response Planning**
+11. **Supply Chain Resilience**
+12. **Regulatory Compliance**
 
 ## **Vendor Management Explained**
 
