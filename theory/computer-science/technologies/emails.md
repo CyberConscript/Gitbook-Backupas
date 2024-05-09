@@ -27,7 +27,7 @@ You should have noticed that both POP3 and IMAP sound same by definition. But th
 
 
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Below is an explanation of each numbered point from the above diagram:
 
@@ -75,7 +75,7 @@ Let's start with the following email header fields:
 
 ## Anti-Spoofing Records
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -125,7 +125,7 @@ We can see that the record declares that it’s a DMARC record, that it sets ema
 
 
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 When organization ‘A’ sends an email, the SPF helps them determine which emails can be sent on their behalf. On the other hand, when organization ‘B’ receives an email, the DKIM checks if the email is sent from a legal source. ie. Organization ‘A’.&#x20;
 
