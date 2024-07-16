@@ -20,7 +20,7 @@ In summary:
 
 **Risk**= **Threats** x **Vulnerabilities**(_likelihood_) x **consequences**(_impact_)
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image-6065e8f0e186f.jpg" alt=""><figcaption></figcaption></figure>
 
