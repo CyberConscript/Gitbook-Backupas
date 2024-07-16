@@ -1,6 +1,6 @@
 # Anti-Spoofing Records
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 \
 When organization ‘A’ sends an email, the SPF helps them determine which emails can be sent on their behalf. On the other hand, when organization ‘B’ receives an email, the DKIM checks if the email is sent from a legal source. ie. Organization ‘A’.&#x20;
@@ -107,3 +107,9 @@ Domain Keys Identified Mail (DKIM) is a method of email authentication that cryp
 **The basic syntax of the record is:**
 
 _**`V=DKIM1 <key type> <public key>`**_
+
+
+
+[_**`https://app.gitbook.com/o/ou2J7krcA2BeXXsCkiV9/s/qksILIEF6BQP7B1aJrCk/~/changes/767/various-tutorials/forensics/emails-and-email-crime`**_](https://app.gitbook.com/o/ou2J7krcA2BeXXsCkiV9/s/qksILIEF6BQP7B1aJrCk/\~/changes/767/various-tutorials/forensics/emails-and-email-crime)\
+\
+[_**`https://tryhackme.com/path/outline/soclevel1`**_](https://tryhackme.com/path/outline/soclevel1)
