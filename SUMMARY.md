@@ -63,7 +63,7 @@
     * [Triage](theory/cybersecurity/viii-security-operations/triage/README.md)
       * [Samples](theory/cybersecurity/viii-security-operations/triage/samples.md)
     * [Investigations](theory/cybersecurity/viii-security-operations/investigations/README.md)
-      * [Mails](theory/cybersecurity/viii-security-operations/investigations/mails.md)
+      * [Email Forensics](theory/cybersecurity/viii-security-operations/investigations/email-forensics.md)
       * [Social engineering](theory/cybersecurity/viii-security-operations/investigations/social-engineering/README.md)
         * [Phishing](theory/cybersecurity/viii-security-operations/investigations/social-engineering/phishing.md)
       * [Acquiring Digital Forensics Evidence](theory/cybersecurity/viii-security-operations/investigations/acquiring-digital-forensics-evidence.md)
