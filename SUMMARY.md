@@ -54,6 +54,7 @@
       * [IDM](theory/cybersecurity/vii-security-eng-arch/sec-services/idm.md)
   * [VIII) Security Operations](theory/cybersecurity/viii-security-operations/README.md)
     * [Pen testing](theory/cybersecurity/viii-security-operations/pen-testing/README.md)
+      * [Credentials harvesting](theory/cybersecurity/viii-security-operations/pen-testing/credentials-harvesting.md)
       * [Kerberos](theory/cybersecurity/viii-security-operations/pen-testing/kerberos/README.md)
         * [Kerberos practical](theory/cybersecurity/viii-security-operations/pen-testing/kerberos/kerberos-practical/README.md)
           * [Kerbrute](theory/cybersecurity/viii-security-operations/pen-testing/kerberos/kerberos-practical/kerbrute.md)

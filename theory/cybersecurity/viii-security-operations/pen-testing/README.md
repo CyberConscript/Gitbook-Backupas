@@ -13,3 +13,21 @@ A penetration test, often called a pen test or ethical hacking, utilizes authori
 
 Unlike passive vulnerability assessment, a penetration test involves actively testing security controls and attempting to exploit identified vulnerabilities. Pen testing is an intrusive assessment technique. For instance, while a vulnerability scan might reveal an unpatched SQL Server susceptible to a known exploit, a penetration test would try to use the exploit to execute code injection, compromising the server. This demonstrates active testing of security controls. While the potential for an exploit may exist, real-world permissions on the server might prevent an attacker from successfully employing it. This aspect, which wouldn't be recognized by a vulnerability scan, is either verified or disproven through penetration testing.
 
+
+
+Framewoks
+
+OSSTMM
+
+OWASP
+
+NIST
+
+NCSC CAF
+
+Pim vs PAM
+
+Bell la padula, biba
+
+STRIDE and PAsta
+
