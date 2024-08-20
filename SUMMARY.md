@@ -126,7 +126,10 @@
   * [III) Frameworks and standards](hands-on/cybersecurity/iii-frameworks-and-standards.md)
   * [IV) Governance](hands-on/cybersecurity/iv-governance.md)
   * [V) Physical security](hands-on/cybersecurity/v-physical-security.md)
-  * [VI) Risk management](hands-on/cybersecurity/vi-risk-management.md)
+  * [VI) Risk management](hands-on/cybersecurity/vi-risk-management/README.md)
+    * [Vuln scanning](hands-on/cybersecurity/vi-risk-management/vuln-scanning/README.md)
+      * [Analyzing the Results of a Credentialed Vulnerability Scan](hands-on/cybersecurity/vi-risk-management/vuln-scanning/analyzing-the-results-of-a-credentialed-vulnerability-scan.md)
+  * [VI) Risk management](hands-on/cybersecurity/vi-risk-management-1.md)
   * [VII) Security engineering](hands-on/cybersecurity/vii-security-engineering/README.md)
     * [Authentification](hands-on/cybersecurity/vii-security-engineering/authentification/README.md)
       * [Managing Centralized Authentication](hands-on/cybersecurity/vii-security-engineering/authentification/managing-centralized-authentication.md)
@@ -149,3 +152,7 @@
   * [Network discovery](hands-on/network/network-discovery/README.md)
     * [Intercepting and Interpreting Network Traffic with Packet Sniffing Tools](hands-on/network/network-discovery/intercepting-and-interpreting-network-traffic-with-packet-sniffing-tools.md)
     * [Scanning and Identifying Network Nodes](hands-on/network/network-discovery/scanning-and-identifying-network-nodes.md)
+
+***
+
+* [Learning list](learning-list.md)

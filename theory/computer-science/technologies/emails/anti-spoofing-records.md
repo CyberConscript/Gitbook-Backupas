@@ -1,6 +1,6 @@
 # Anti-Spoofing Records
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 \
 When organization ‘A’ sends an email, the SPF helps them determine which emails can be sent on their behalf. On the other hand, when organization ‘B’ receives an email, the DKIM checks if the email is sent from a legal source. ie. Organization ‘A’.&#x20;

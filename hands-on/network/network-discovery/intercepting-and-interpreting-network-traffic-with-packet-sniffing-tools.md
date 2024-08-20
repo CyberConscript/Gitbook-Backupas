@@ -126,6 +126,17 @@ You will use **tcpdump** to intercept SSH network traffic and attempt to display
     Specifically, do you find any authentication credentials? Also notice details such as the source and destination port numbers, etc.
 10. Were you able to read information about the root user, such as the password?
 
-    YesNo
+    YesNo\
 
-Correct
+
+### Comprehensive questions <a href="#comprehensive-questions" id="comprehensive-questions"></a>
+
+Answer the following final comprehensive questions to ensure that you recognize the importance of the activity steps and the uses for the information you have learned.
+
+1.  Which of the following answers best describes the content you viewed by using the tcpdump utility?
+
+    FTP and SSH traffic.SMB and DNS traffic.HTTP and SSH traffic.HTTPS and SFTP traffic.
+2.  Would an eavesdropper be able to intercept and read the contents of the web page on the MS1 (10.1.0.2) virtual machine if the web server required HTTPS connections?
+
+    Yes, the contents would still have been readable.No, the contents would have been encrypted and therefore unreadable.
+
