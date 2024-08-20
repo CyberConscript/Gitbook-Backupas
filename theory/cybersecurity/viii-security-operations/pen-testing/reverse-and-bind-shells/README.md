@@ -54,6 +54,12 @@ Here’s what happens:
    * **Reverse Shell**: Can be harder to detect in environments where outbound connections are less scrutinized.
    * **Bind Shell**: Easier to detect because it requires an open port on the target machine.
 
+
+
+[https://tryhackme.com/r/room/introtoshells](https://tryhackme.com/r/room/introtoshells)
+
+####
+
 #### [https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
 
 #### [https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet](https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)
