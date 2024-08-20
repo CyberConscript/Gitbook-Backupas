@@ -21,7 +21,7 @@ OpenVAS can be managed using a web application called Greenbone Security Assista
 5. &#x20;At the security warning, select **Advanced > Accept the risk and continue**.
 6. &#x20;Log on with the Username admin and Password as Pa\$$w0rd.
 
-<figure><img src="../../../.gitbook/assets/cbfroxhx.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/cbfroxhx.jpg" alt=""><figcaption></figcaption></figure>
 
 ### Configure credentialed scan <a href="#configure-credentialed-scan" id="configure-credentialed-scan"></a>
 
@@ -143,7 +143,7 @@ Now that you have begun a scan, you need to let it run for a three to four minut
 
 
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2020-11-07 at 9.19.09 AM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screen Shot 2020-11-07 at 9.19.09 AM.png" alt=""><figcaption></figcaption></figure>
 
 ### Browse OpenVAS scan report <a href="#browse-openvas-scan-report" id="browse-openvas-scan-report"></a>
 
