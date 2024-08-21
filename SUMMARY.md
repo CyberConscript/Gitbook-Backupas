@@ -147,6 +147,7 @@
       * [Packet Injection and Replay](theory/network/tools/packet-analysis/packet-injection-and-replay.md)
       * [Packet Capture and tcpdump](theory/network/tools/packet-analysis/packet-capture-and-tcpdump.md)
       * [Wireshark](theory/network/tools/packet-analysis/wireshark.md)
+    * [Snort](theory/network/tools/snort.md)
   * [Network discovery](theory/network/network-discovery/README.md)
     * [Intercepting and Interpreting Network Traffic with Packet Sniffing Tools](theory/network/network-discovery/intercepting-and-interpreting-network-traffic-with-packet-sniffing-tools.md)
     * [Scanning and Identifying Network Nodes](theory/network/network-discovery/scanning-and-identifying-network-nodes.md)
