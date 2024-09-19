@@ -22,6 +22,7 @@
   * [V) Physical security](theory/cybersecurity/v-physical-security.md)
   * [VI) Risk management](theory/cybersecurity/vi-risk-management/README.md)
     * [IT audit](theory/cybersecurity/vi-risk-management/it-audit/README.md)
+      * [Organizational roles](theory/cybersecurity/vi-risk-management/it-audit/organizational-roles.md)
       * [Audit Planning and Preparation](theory/cybersecurity/vi-risk-management/it-audit/audit-planning-and-preparation.md)
       * [Network audit](theory/cybersecurity/vi-risk-management/it-audit/network-audit.md)
       * [Next-Generation Firewall Auditing](theory/cybersecurity/vi-risk-management/it-audit/next-generation-firewall-auditing.md)
