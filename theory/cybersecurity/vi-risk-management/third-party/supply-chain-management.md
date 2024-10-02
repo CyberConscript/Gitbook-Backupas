@@ -1,5 +1,13 @@
 # Supply chain management
 
+A supply chain is a sequence of suppliers that lead to the delivery of a product. In information systems, the product can be hardware, software, or service. Consequently, the risk is as follows:
+
+* Risk associated with hardware: Depending on the importance of the target, a threat actor can add a hardware Trojan to an electronic device. As with software Trojans, the purpose is to provide unauthorised functionality.
+* Risk associated with software: Software Trojans require access to the software to plant it. In the worst-case scenario, the attacker would succeed in adding the Trojan directly to the source code.
+* Risk associated with services: The risk can range from downtime to data breaches. A company must ensure that the service provider has a good security program before using its service.
+
+
+
 Supply chain management in cybersecurity involves ensuring the security and integrity of products and services throughout the supply chain, from the initial sourcing of components to the delivery of the final product to the end-user. Here are some best practices for managing cybersecurity in the supply chain:
 
 1. **Vendor Risk Assessment:**

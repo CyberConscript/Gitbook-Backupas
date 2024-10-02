@@ -9,7 +9,12 @@ Risk management is a process for identifying, assessing, and mitigating vulnerab
 
 ##
 
+Based on NIST SP 800-30, the risk management process entails four steps:
 
+1. Frame risk: First, we must establish the context within which all risk activities occur.
+2. Assess risk: We must identify, analyse, and evaluate potential risks and their likelihood and impact. This step is crucial to help decide on a proper response later.
+3. Respond to risk: We need to take the steps necessary to mitigate the likelihood or impact of the risk. The response depends on many factors, and we will cover them separately.
+4. Monitor risk: Finally, we continue tracking and evaluating the effectiveness of risk responses, identifying new risks, and ensuring that our risk management activities are effective. Monitoring is an ongoing process, as many criteria might change over time.
 
 ## Step 1: Risk Identification
 
@@ -144,6 +149,45 @@ With a prioritized list of risks in place, the next step is to evaluate the opti
 * Risk sharing or transfer. This involves sharing some of the potential impact of a risk with another entity, such as an insurance firm or an external service provider -- or, if possible, completely transferring responsibility for the risk to that entity.
 * Risk mitigation and control. Where practical, various [risk mitigation](https://www.techtarget.com/searchdisasterrecovery/definition/risk-mitigation) measures and management, technical and administrative controls can be applied to help reduce the likelihood or impact of each risk to an acceptable level.
 * Risk avoidance. If none of the other options are feasible, risk managers must implement [risk avoidance](https://www.techtarget.com/searchsecurity/definition/risk-avoidance) measures to eliminate the activities or exposures that would enable a particular risk scenario.
+
+
+
+## 5. Monitoring&#x20;
+
+
+
+For the latter, monitoring risks activities requires a focus on the following areas:
+
+* Effectiveness
+* Change
+* Compliance
+
+### Effectiveness Monitoring
+
+Responding to an assessed risk does not mark the end of the story. A solution might be effective now but might become ineffective in the future.
+
+Consider the following example: there is always a risk that employees might use weak passwords, which would threaten the whole network. Specific password complexity requirements are enforced to mitigate this risk. This solution should work excellently, shouldn’t it? However, while monitoring the effectiveness of this measure, you might discover that many employees are resorting to writing their complex passwords on sticky notes. Such discovery shows that the implemented control, i.e., password complexity, has become ineffective.
+
+Without effectiveness monitoring, there is no way to discover whether a control is still effective and whether a risk is still mitigated correctly.
+
+### Monitoring Change
+
+“Change is the only constant in life.” as Heraclitus, a Greek philosopher, is quoted as saying. When it comes to risk monitoring, changes might be due to one of the following:
+
+* Change in business
+* Change in information systems
+
+Business change might include opening new branches, creating new positions, and acquiring other companies. Any business change might introduce new risks and render existing controls invalid.
+
+The more noticeable change is the change in information systems. Adding new equipment or migrating to new systems would introduce new risks. Consequently, monitoring such changes is necessary to assess unknown risks that have arisen.
+
+### Compliance Monitoring
+
+New laws might see light, new regulatory requirements might come into effect, and new policies might be enforced. Although the pace of change is not as fast as in other areas, these are still areas that the risk management team need to keep an eye on and monitor.
+
+Another aspect that needs to be monitored is the audit findings. Failing to address audit findings can result in fines or stir legal action.
+
+
 
 ### RISK MANAGEMENT STRATEGIES
 
