@@ -129,6 +129,7 @@
         * [Route](theory/computer-science/tools/cmd-line/route.md)
       * [Footprinting](theory/cybersecurity/xi-vulnerabilities/sec-assessments/footprinting.md)
     * [Vulnerabilities](theory/cybersecurity/xi-vulnerabilities/README.md)
+      * [Evaluating](theory/cybersecurity/xi-sec-assessments/vulnerabilities/evaluating.md)
       * [Scanning](theory/cybersecurity/xi-sec-assessments/vulnerabilities/scanning.md)
       * [Impact](theory/cybersecurity/xi-sec-assessments/vulnerabilities/impact.md)
       * [Exploitation Frameworks](theory/cybersecurity/xi-vulnerabilities/exploitation-frameworks.md)
