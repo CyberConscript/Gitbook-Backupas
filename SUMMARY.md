@@ -6,7 +6,9 @@
 
 * [CyberSecurity](theory/cybersecurity/README.md)
   * [I) Application security](theory/cybersecurity/i-application-security.md)
-  * [II) Career development](theory/cybersecurity/ii-career-development.md)
+  * [II) Career development](theory/cybersecurity/ii-career-development/README.md)
+    * [Practices](theory/cybersecurity/ii-career-development/practices/README.md)
+      * [Regex](theory/cybersecurity/ii-career-development/practices/regex.md)
   * [III) Frameworks and standards](theory/cybersecurity/iii-frameworks-and-standards/README.md)
     * [Attack life cycle](theory/cybersecurity/iii-frameworks-and-standards/attack-life-cycle/README.md)
       * [Access and initial foothold](theory/cybersecurity/iii-frameworks-and-standards/attack-life-cycle/access-and-initial-foothold.md)
