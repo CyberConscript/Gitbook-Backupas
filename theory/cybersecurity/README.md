@@ -24,7 +24,7 @@ In the pursuit of maintaining the integrity of information, cybersecurity focuse
 
 By adhering to these five functions, organizations can significantly bolster their cybersecurity posture and ensure comprehensive protection of their information assets. This framework provides a structured approach to addressing the multifaceted challenges of cybersecurity. For more in-depth learning, you can explore the NIST Cybersecurity Framework online (nist.gov/cyberframework/online-learning/five-functions).
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 ## Competencies
 
@@ -62,7 +62,7 @@ As part of fostering a robust organizational security stance, employees must com
 
 The following units are often used to represent the security function within the organizational hierarchy.
 
-#### Security Operations Center (SOC) <a href="#032a5fd7-0c7e-40e1-84fc-4c78fa91a35b" id="032a5fd7-0c7e-40e1-84fc-4c78fa91a35b"></a>
+#### Security Operations Center (SOC) <a href="#id-032a5fd7-0c7e-40e1-84fc-4c78fa91a35b" id="id-032a5fd7-0c7e-40e1-84fc-4c78fa91a35b"></a>
 
 A security operations center (SOC) is a location where security professionals monitor and protect critical information assets across other business functions, such as finance, operations, sales/marketing, and so on. Because SOCs can be difficult to establish, maintain, and finance, they are usually employed by larger corporations, like a government agency or a healthcare company.&#x20;
 

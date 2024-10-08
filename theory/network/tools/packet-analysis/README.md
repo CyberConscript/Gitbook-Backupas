@@ -51,7 +51,7 @@ There are several ways to tap into a network wire to capture network traffic. He
 
 Each of these methods has its advantages and considerations in terms of network visibility, deployment complexity, and potential impact on network performance. The choice of tapping method depends on the specific network environment, requirements, and the purpose of network monitoring or analysis. Chart to decide:
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
 

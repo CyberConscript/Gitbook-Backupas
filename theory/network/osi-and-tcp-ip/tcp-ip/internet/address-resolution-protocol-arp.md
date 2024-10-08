@@ -22,7 +22,7 @@ You just saw that direct mapping provides a simple and highly efficient means of
 
 
 
-<figure><img src="../../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
 
 
