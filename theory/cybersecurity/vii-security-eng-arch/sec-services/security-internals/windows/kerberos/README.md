@@ -41,7 +41,7 @@ A service ticket contains two portions: the service provided portion and the use
 
 ## Process in detail
 
-<figure><img src="../../../../../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 AS-REQ - 1.) The client requests an Authentication Ticket or Ticket Granting Ticket (TGT). User encrypts  timestamp NT hash and send it to the AS.&#x20;
 

@@ -11,7 +11,7 @@ Unlike a computer, an Arduino can only store and run a single sketch at a time. 
 
 
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 **ATmega328 microcontroller**&#x20;
 

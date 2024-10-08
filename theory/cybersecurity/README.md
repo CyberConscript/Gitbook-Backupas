@@ -24,7 +24,7 @@ In the pursuit of maintaining the integrity of information, cybersecurity focuse
 
 By adhering to these five functions, organizations can significantly bolster their cybersecurity posture and ensure comprehensive protection of their information assets. This framework provides a structured approach to addressing the multifaceted challenges of cybersecurity. For more in-depth learning, you can explore the NIST Cybersecurity Framework online (nist.gov/cyberframework/online-learning/five-functions).
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ## Competencies
 

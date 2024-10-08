@@ -2,7 +2,7 @@
 
 When writing sketches in Arduino, you need to be very specific with the words, punctuation, and capitalization you use. These elements are part of a programming language’s syntax.
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 Both setup() and loop() have the type void because they do not return any values.
 

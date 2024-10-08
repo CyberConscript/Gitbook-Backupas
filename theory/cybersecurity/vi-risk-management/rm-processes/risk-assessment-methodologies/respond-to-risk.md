@@ -58,4 +58,4 @@ If the value of the safeguard turns out to be negative, it means that the cost o
 
 
 
-<figure><img src="../../../../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>

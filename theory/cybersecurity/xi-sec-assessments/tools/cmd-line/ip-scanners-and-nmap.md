@@ -1,2 +1,0 @@
-# IP Scanners and Nmap
-
