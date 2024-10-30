@@ -200,4 +200,8 @@
 
 ***
 
-* [Learning list](learning-list.md)
+* [Learning list](learning-list/README.md)
+  * [Skills](learning-list/skills/README.md)
+    * [Search Skills](learning-list/skills/search-skills.md)
+    * [Linux](learning-list/skills/linux/README.md)
+      * [Directories](learning-list/skills/linux/directories.md)
