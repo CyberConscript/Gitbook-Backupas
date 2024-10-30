@@ -202,6 +202,8 @@
 
 * [Learning list](learning-list/README.md)
   * [Skills](learning-list/skills/README.md)
+    * [Command line windows](learning-list/skills/command-line-windows.md)
     * [Search Skills](learning-list/skills/search-skills.md)
-    * [Linux](learning-list/skills/linux/README.md)
-      * [Directories](learning-list/skills/linux/directories.md)
+    * [OS](learning-list/skills/os/README.md)
+      * [Linux](learning-list/skills/os/linux/README.md)
+        * [Directories](learning-list/skills/os/linux/directories.md)
