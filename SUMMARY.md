@@ -49,6 +49,7 @@
     * [Third Party](theory/cybersecurity/vi-risk-management/third-party/README.md)
       * [Supply chain management](theory/cybersecurity/vi-risk-management/third-party/supply-chain-management.md)
   * [VII) Security eng-arch](theory/cybersecurity/vii-security-eng-arch/README.md)
+    * [Identity and access management (IAM)](theory/cybersecurity/vii-security-eng-arch/identity-and-access-management-iam.md)
     * [Segmentation](theory/cybersecurity/vii-security-eng-arch/segmentation/README.md)
       * [Enviroments](theory/cybersecurity/vii-security-eng-arch/segmentation/enviroments.md)
       * [Data segmentation](theory/cybersecurity/vii-security-eng-arch/segmentation/data-segmentation.md)
