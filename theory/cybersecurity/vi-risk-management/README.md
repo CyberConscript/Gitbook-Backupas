@@ -20,6 +20,10 @@ In summary:
 
 **Risk**= **Threats** x **Vulnerabilities**(_likelihood_) x **consequences**(_impact_)
 
+Risk score = Likelihood X Impact
+
+Likelihood, or probability, represents the possibility that a given Risk Exposure will occur and is to be expressed in a quantitative manner. Impact, or consequence, refers to the maximum potential impact of a Risk Exposure which is also to be represented in a quantitative manner. The Risk Score is merely the product of the quantitative Likelihood and Impact values.
+
 <figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image-6065e8f0e186f.jpg" alt=""><figcaption></figcaption></figure>

@@ -125,13 +125,37 @@ This is determined preferably based on experience, the progress of the project, 
 
 For example, suppose the risk that: “the inability of supplier X to conduct studies on a modification Y by the end of 2025” is 50% probable. This could be determined from feedback and analysis of the supplier’s workload.
 
+
+
+<figure><img src="../../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+
 **Evaluating impacts severity (I):**
 
+There can be many kinds of impacts to an organization. A sample list of impact criteria are as follows: • Financial \
+• Reputation \
+• Legal \
+• Personnel \
+• Staffing \
+• Engagement \
+• IT system availability \
+• System recovery \
+• Project completion time
+
 To assess the overall impact, it is necessary to estimate the severity of each of the impacts defined at the project level. A scale is used to classify the different impacts and their severities. This ensures that the assessment of the risk and opportunity is standardized and reliable.
+
+<figure><img src="../../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
 
 The criticality level of a risk or opportunity is obtained by the equation: **Criticality = P x I**
 
 The purpose of the qualitative assessment is to ensure that the risk management team prioritizes the response on critical items first.
+
+
+
+<figure><img src="../../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 3: Prioritizing the Risks
 
@@ -221,6 +245,10 @@ It is not possible to reduce risks to zero, so part of risk posture is concerned
 #### Residual Risk and Risk Appetite <a href="#cefce5e9-c242-4a36-85f8-7b2d3865d3c8" id="cefce5e9-c242-4a36-85f8-7b2d3865d3c8"></a>
 
 Where inherent risk is the risk before mitigation, residual risk is the likelihood and impact after specific mitigation, transference, or acceptance measures have been applied. Risk appetite is a strategic assessment of what level of residual risk is tolerable. Risk appetite is broad in scope. Where risk acceptance has the scope of a single system, risk appetite has a project- or institution-wide scope. Risk appetite is constrained by regulation and compliance.
+
+#### Risk Tolerance&#x20;
+
+Risk tolerance is defined as how much risk beyond the risk appetite is the organization willing to “tolerate.” Risk tolerance tends to be more tactical and may even be determined on a per initiative basis. If a specific initiative has been determined as central to multiple other areas’ success in the organization, more risk may be tolerated to achieve the goals of that specific initiative.
 
 #### Control Risk <a href="#id-70efc780-faeb-443f-bbc9-da68cdc20212" id="id-70efc780-faeb-443f-bbc9-da68cdc20212"></a>
 
