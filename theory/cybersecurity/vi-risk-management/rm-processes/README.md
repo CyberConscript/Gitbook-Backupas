@@ -30,7 +30,7 @@ A risk (or opportunity) is characterized by its description, causes and conseque
 
 In order to be managed effectively, the Risks and Opportunities (R\&O) identified must be as precise and specific as possible. The title of the risk or opportunity must be succinct, self-explanatory and clearly defined.&#x20;
 
-All members of the project can and should identify R\&O, and the content of these is the responsibility of the Risk (or Opportunity) Owners. Risk Managers are responsible for ensuring that a formal process for identifying risks and developing response plans are conducted through exchanges with risk owners. We will explain each of these roles in further detail in our next article on [Risk Management Team Roles](https://www.migso-pcubed.com/blog/risk-management/risk-management-team-roles/).
+All members of the project can and should identify R\&O, and the content of these is the responsibility of the Risk (or Opportunity) Owners. Risk Managers are responsible for ensuring that a formal process for identifying risks and developing response plans are conducted through exchanges with risk owners.&#x20;
 
 Below are examples of tools to help identify R\&O:
 
@@ -169,8 +169,8 @@ This step gives you a holistic view of your organization's risk exposure. More i
 
 With a prioritized list of risks in place, the next step is to evaluate the options available to treat, or respond to, the risks and decide which approach to apply in each case. Potential risk treatment actions including the following:
 
-* Risk acceptance. If a risk is deemed to be acceptable based on business leadership's [risk appetite](https://www.techtarget.com/searchsecurity/definition/What-is-risk-appetite), no further treatment is necessary.
-* Risk sharing or transfer. This involves sharing some of the potential impact of a risk with another entity, such as an insurance firm or an external service provider -- or, if possible, completely transferring responsibility for the risk to that entity.
+* Risk acceptance. Ignoring the risk. If a risk is deemed to be acceptable based on business leadership's [risk appetite](https://www.techtarget.com/searchsecurity/definition/What-is-risk-appetite), no further treatment is necessary. By failing to acknowledge and address these risks proactively, the organization accepts the inevitable impact of security breaches and their potential fallout. Debt accumulates over time and can eventually have disastrous effects on an organization.
+* Risk sharing or transfer. This involves sharing some of the potential impact of a risk with another entity, such as an insurance firm or an external service provider -- or, if possible, completely transferring responsibility for the risk to that entity, using outsourcing. (Identification, Outsourcing, Contract, Risk transfer, Management).
 * Risk mitigation and control. Where practical, various [risk mitigation](https://www.techtarget.com/searchdisasterrecovery/definition/risk-mitigation) measures and management, technical and administrative controls can be applied to help reduce the likelihood or impact of each risk to an acceptable level.
 * Risk avoidance. If none of the other options are feasible, risk managers must implement [risk avoidance](https://www.techtarget.com/searchsecurity/definition/risk-avoidance) measures to eliminate the activities or exposures that would enable a particular risk scenario.
 
@@ -264,7 +264,7 @@ To ensure that the business stakeholders understand each risk scenario, you shou
 
 A risk register is a document showing the results of risk assessments in a comprehensible format. The register may resemble the heat map risk matrix shown earlier with columns for impact and likelihood ratings, date of identification, description, countermeasures, owner/route for escalation, and status. Risk registers are also commonly depicted as scatterplot graphs, where impact and likelihood are each an axis, and the plot point is associated with a legend that includes more information about the nature of the plotted risk. A risk register should be shared between stakeholders (executives, department managers, and senior technicians) so that they understand the risks associated with the workflows that they manage.
 
-
+<figure><img src="../../../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
 ## BUSINESS IMPACT ANALYSIS
 
