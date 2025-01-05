@@ -174,7 +174,9 @@ With a prioritized list of risks in place, the next step is to evaluate the opti
 * Risk mitigation and control. Where practical, various [risk mitigation](https://www.techtarget.com/searchdisasterrecovery/definition/risk-mitigation) measures and management, technical and administrative controls can be applied to help reduce the likelihood or impact of each risk to an acceptable level.
 * Risk avoidance. If none of the other options are feasible, risk managers must implement [risk avoidance](https://www.techtarget.com/searchsecurity/definition/risk-avoidance) measures to eliminate the activities or exposures that would enable a particular risk scenario.
 
+What helpful is to encourage the addition of a Risk Action table, which provides guidance on the Executive/Board’s expectations around, at least, the timeliness in dealing with risks that are identified above the risk appetite.
 
+<figure><img src="../../../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
 
 ## 5. Monitoring&#x20;
 
