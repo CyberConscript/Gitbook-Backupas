@@ -203,6 +203,8 @@ Example: Kerberos based on symetric, Key Distribution center, Authentication ser
 
 
 
+Example: Web portal access: federated, SAML, OAUTH; Portlet
+
 ## Security measures
 
 #### Lockout
@@ -230,6 +232,18 @@ application stores user identifiers and passwords in a password-encrypted data s
 A passphrase is a sequence of characters that is longer than a password (thus a “phrase”) and, in some cases, takes the place of a password during an authentication process. The user enters this phrase into an application, and the application transforms the value into a virtual password, making the passphrase the length and format that are required by the application. (For example, an application may require your virtual password to be 128 bits to be used as a key with the AES algorithm.) If a user wants to authenticate to an application, such as Pretty Good Privacy (PGP), he types in a passphrase, let’s say StickWithMeKidAndYouWillWearDiamonds. The application converts this phrase into a virtual password that is used for the actual authentication. The user usually generates the passphrase in the same way a user creates a password the first time he logs on to a computer. A passphrase is more secure than a password because it is longer, and thus harder to obtain by an attacker. In many cases, the user is more likely to remember a passphrase than a password.
 
 
+
+
+
+Session management
+
+Timeout
+
+Tokens
+
+Logs
+
+Periodic or continuous authentification
 
 ## Threats
 
