@@ -24,6 +24,7 @@
   * [IV) Governance](theory/cybersecurity/iv-governance.md)
   * [V) Physical security](theory/cybersecurity/v-physical-security.md)
   * [VI) Risk management](theory/cybersecurity/vi-risk-management/README.md)
+    * [LT version](theory/cybersecurity/vi-risk-management/lt-version.md)
     * [IT audit](theory/cybersecurity/vi-risk-management/it-audit/README.md)
       * [Organizational roles](theory/cybersecurity/vi-risk-management/it-audit/organizational-roles.md)
       * [Audit Frameworks](theory/cybersecurity/vi-risk-management/it-audit/audit-frameworks.md)
