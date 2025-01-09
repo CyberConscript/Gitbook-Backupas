@@ -210,3 +210,4 @@
     * [OS](learning-list/skills/os/README.md)
       * [Linux](learning-list/skills/os/linux/README.md)
         * [Directories](learning-list/skills/os/linux/directories.md)
+  * [Page 1](learning-list/page-1.md)
