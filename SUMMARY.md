@@ -20,6 +20,7 @@
     * [Center for Internet Security (CIS)](theory/cybersecurity/iii-frameworks-and-standards/center-for-internet-security-cis.md)
     * [OWASP](theory/cybersecurity/iii-frameworks-and-standards/owasp/README.md)
       * [Server-side request forgery (SSRF)](theory/cybersecurity/iii-frameworks-and-standards/owasp/server-side-request-forgery-ssrf.md)
+    * [NIS](theory/cybersecurity/iii-frameworks-and-standards/nis.md)
     * [NIST CSF](theory/cybersecurity/iii-frameworks-and-standards/nist-csf.md)
   * [IV) Governance](theory/cybersecurity/iv-governance.md)
   * [V) Physical security](theory/cybersecurity/v-physical-security.md)
