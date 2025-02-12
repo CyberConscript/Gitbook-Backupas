@@ -111,6 +111,8 @@
     * [Triage](theory/cybersecurity/viii-security-operations/triage/README.md)
       * [Samples](theory/cybersecurity/viii-security-operations/triage/samples.md)
     * [Investigations](theory/cybersecurity/viii-security-operations/investigations/README.md)
+      * [Malware analysis](theory/cybersecurity/viii-security-operations/investigations/malware-analysis/README.md)
+        * [YARA](theory/cybersecurity/viii-security-operations/investigations/malware-analysis/yara.md)
       * [Email Forensics](theory/cybersecurity/viii-security-operations/investigations/email-forensics.md)
       * [Social engineering](theory/cybersecurity/viii-security-operations/investigations/social-engineering/README.md)
         * [Phishing](theory/cybersecurity/viii-security-operations/investigations/social-engineering/phishing.md)
