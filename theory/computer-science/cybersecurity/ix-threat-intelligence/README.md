@@ -8,10 +8,40 @@
 
 Threat Intel is geared towards understanding the relationship between your operational environment and your adversary. With this in mind, we can break down threat intel into the following classifications:&#x20;
 
-* **Strategic Intel:** High-level intel that looks into the organisation’s threat landscape and maps out the risk areas based on trends, patterns and emerging threats that may impact business decisions.
-* **Technical Intel:** Looks into evidence and artefacts of attack used by an adversary. Incident Response teams can use this intel to create a baseline attack surface to analyse and develop defence mechanisms.
-* **Tactical Intel:** Assesses adversaries’ tactics, techniques, and procedures (TTPs). This intel can strengthen security controls and address vulnerabilities through real-time investigations.
-* **Operational Intel:** Looks into an adversary’s specific motives and intent to perform an attack. Security teams may use this intel to understand the critical assets available in the organisation (people, processes and technologies) that may be targeted.
+*   **Strategic Intel:** High-level intel that looks into the organisation’s threat landscape and maps out the risk areas based on trends, patterns and emerging threats that may impact business decisions.
+
+    **Examples:**
+
+    * **Nation-state threats** (e.g., Russian APTs targeting finance).
+    * **Industry-specific threats** (e.g., ransomware trends in healthcare).
+    * **Geopolitical risks** that may impact cybersecurity.
+
+
+*   **Technical Intel:** Looks into evidence and artefacts of attack used by an adversary. Incident Response teams can use this intel to create a baseline attack surface to analyze and develop defense mechanisms.
+
+    **Examples:**
+
+    * **Reverse-engineered malware samples** (e.g., disassembled TrickBot malware code).
+    * **Exploit code shared on dark web forums**.
+    * **Detailed YARA and Sigma rules for threat detection**
+
+
+*   **Tactical Intel:** Assesses adversaries’ tactics, techniques, and procedures (TTPs). This intel can strengthen security controls and address vulnerabilities through real-time investigations.
+
+    **Examples:**
+
+    * **MITRE ATT\&CK mappings** (e.g., using PowerShell for credential dumping).
+    * **Indicators of Compromise (IoCs)** (e.g., malicious IPs, file hashes, domains).
+    * **Phishing attack patterns** used by specific threat groups.
+
+
+*   **Operational Intel:** Looks into an adversary’s specific motives and intent to perform an attack. Security teams may use this intel to understand the critical assets available in the organisation (people, processes and technologies) that may be targeted.
+
+    **Examples:**
+
+    * **Threat actor infrastructure updates** (e.g., a ransomware gang switching to new C2 domains).
+    * **Zero-day vulnerabilities being exploited in the wild**.
+    * **Malware command-and-control (C2) server IP addresses**.
 
 
 
