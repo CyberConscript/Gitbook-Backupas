@@ -168,6 +168,7 @@
         * [Analyzing the Results of a Credentialed Vulnerability Scan](theory/computer-science/cybersecurity/vi-risk-management/vuln-scanning/analyzing-the-results-of-a-credentialed-vulnerability-scan.md)
     * [VI) Risk management](theory/computer-science/cybersecurity/vi-risk-management-1.md)
     * [IX) Threat intelligence](theory/computer-science/cybersecurity/ix-threat-intelligence/README.md)
+      * [OSINT tools](theory/computer-science/cybersecurity/ix-threat-intelligence/osint-tools.md)
       * [STIX](theory/computer-science/cybersecurity/ix-threat-intelligence/stix.md)
       * [Cyber Kill Chain](theory/computer-science/cybersecurity/ix-threat-intelligence/cyber-kill-chain.md)
       * [TAXII](theory/computer-science/cybersecurity/ix-threat-intelligence/taxii.md)
