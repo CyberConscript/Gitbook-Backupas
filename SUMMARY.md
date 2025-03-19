@@ -57,6 +57,7 @@
       * [Data segmentation](theory/cybersecurity/vii-security-eng-arch/segmentation/data-segmentation.md)
     * [Security devices](theory/cybersecurity/vii-security-eng-arch/security-devices/README.md)
       * [SIEM](theory/cybersecurity/vii-security-eng-arch/security-devices/siem/README.md)
+        * [Wazuh](theory/cybersecurity/vii-security-eng-arch/security-devices/siem/wazuh.md)
         * [Splunk](theory/cybersecurity/vii-security-eng-arch/security-devices/siem/splunk/README.md)
           * [Getting started](theory/cybersecurity/vii-security-eng-arch/security-devices/siem/splunk/getting-started.md)
           * [Configuration](theory/cybersecurity/vii-security-eng-arch/security-devices/siem/splunk/configuration.md)
