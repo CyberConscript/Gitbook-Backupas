@@ -145,3 +145,57 @@ Now, let’s configure the system that is running a Wazuh agent that we wish to 
 
 ## Custom Alert Rules in Wazuh
 
+
+
+Decoders
+
+```xml
+<decoder name="Sysmon-EventID#1_new">
+    <parent>windows</parent>     
+    <type>windows</type>     
+    <prematch>INFORMATION\(1\).+Hashes</prematch>     
+    <regex>Microsoft-Windows-Sysmon/Operational: \S+\((\d+)\)</regex>     
+    <order>id</order> 
+</decoder>
+        
+```
+
+There are a whole lot more options that can be set for decoders. For now, we are only interested in the ones listed above. If you want to check out all the options, you can visit the Wazuh documentation's [Decoder Syntax page](https://documentation.wazuh.com/current/user-manual/ruleset/ruleset-xml-syntax/decoders.html).
+
+Let's break down the parts of this Decoder block:
+
+* decoder name - The name of this decoder. (Note: Multiple decoder blocks can have the same name; think of this as though they are being grouped together).
+* parent - The name of the parent decoder. The parent decoder is processed first before the children are
+* prematch - Uses regular expressions to look for a match. If this succeeds, it will process the "regex" option below.
+* regex - Uses regular expressions to extract data. Any string in between a non-escaped open and closed parenthesis is extracted.
+* order - Contains a list of names to which the extracted data will be stored.
+
+
+
+
+
+```plaintext
+Mar 29 13:36:36 WinEvtLog: Microsoft-Windows-Sysmon/Operational: 
+INFORMATION(1): Microsoft-Windows-Sysmon: SYSTEM: NT AUTHORITY: WIN-P57C9KN929H: 
+Process Create:  UtcTime: 2017-03-29 11:36:36.964 
+ ProcessGuid: {DB577E3B-9C44-58DB-0000-0010B0983A00}
+  ProcessId: 3784  Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe 
+   CommandLine: "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"
+    "-file" "C:\Users\Alberto\Desktop\test.ps1" 
+     CurrentDirectory: C:\Users\Alberto\Desktop\  User: WIN-P57C9KN929H\Alberto 
+     
+       LogonGuid: {DB577E3B-89E5-58DB-0000-0020CB290500}  
+       LogonId: 0x529cb  TerminalSessionId: 1  IntegrityLevel: Medium  
+       Hashes: MD5=92F44E405DB16AC55D97E3BFE3B132FA,
+       SHA256=6C05E11399B7E3C8ED31BAE72014CF249C144A8F4A2C54A758EB2E6FAD47AEC7  P
+       arentProcessGuid: {DB577E3B-89E6-58DB-0000-0010FA3B0500} 
+        ParentProcessId: 2308  ParentImage: C:\Windows\explorer.exe 
+ ParentCommandLine: C:\Windows\Explorer.EXE
+```
+
+* First, the regex will look for the `INFORMATION` string.
+* Followed by an escaped open parenthesis `\(`.
+* Followed by a number `1`.
+* Followed by an escaped close parenthesis `\)`.
+* And then any number of characters `.+`.
+* Until it reaches the `Hashes` string.
