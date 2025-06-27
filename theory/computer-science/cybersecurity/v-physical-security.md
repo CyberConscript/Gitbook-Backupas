@@ -1,2 +1,0 @@
-# V) Physical security
-
