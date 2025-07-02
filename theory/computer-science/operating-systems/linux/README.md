@@ -150,9 +150,189 @@ The command line is essential for automation and scripting tasks. You can create
 
 ## `Backup scriptrsync -av /home/user/documents /media/external_drive/backup`
 
+Here are a few essential commands:\
+• ls: List files and directories in the current directory.\
+• cd: Change the current working directory.\
+• pwd: Print the current working directory.\
+• mkdir: Create a new directory.\
+• touch: Create an empty file.\
+• cp: Copy files and directories.\
+• mv: Move or rename files and directories.\
+• rm: Remove files and directories.\
+• cat: Display the contents of a file.\
+• grep: Search for text within files.\
+• ps: List running processes.\
+• top or htop: Monitor system resource usage.\
+• df: Display disk space usage.\
+• du: Display directory space usage.
+
+
+
+Finding Files\
+The find command is a powerful tool for locating files and directories based\
+on various criteria. For example, to find all text files in the current directory\
+and its subdirectories that contain the word “linux,” you can use:`$ find . -type f -name "`_`.txt" -exec grep -l "linux" {} ;`_\
+_This command starts the search from the current directory (.), specifies that_\
+_it should only look for regular files (-type f), searches for files with the .txt_\
+_extension (-name "_.txt"), and then uses grep to search within those files for\
+the specified text
+
 ## System Administration&#x20;
 
 System administrators rely heavily on the command line for managing and configuring servers and networks. Many server-side tasks are best performed through the command line, allowing administrators to remotely manage systems and automate routine maintenance tasks.&#x20;
+
+
+
+### Users and Permissions: A Security Primer
+
+\
+User management and permissions are vital aspects of Linux security. Understanding how user accounts work and how permissions are assigned&#x20;\
+is crucial for maintaining the integrity of your system.&#x20;
+
+#### &#xD;User Accounts
+
+\
+In Linux, each person who uses the system has a user account. User\
+accounts are used to log in, access resources, and perform actions on the\
+system. Some key concepts related to user accounts include:
+
+• Usernames: Each user has a unique username that identifies them on the\
+system. Usernames are case-sensitive.\
+• User IDs (UIDs): Behind the scenes, each user is assigned a numerical\
+User ID (UID). The root user typically has UID 0, and other users are\
+assigned UIDs starting from 1000 and increasing.\
+• Groups: Users can belong to one or more groups, which provide a way to\
+manage permissions more efficiently. Each group also has a Group ID\
+(GID).
+
+Sure, here’s a plain text version of common user management commands in Linux:
+
+***
+
+**User Management**
+
+* `adduser [username]` — Add a new user (Debian-based systems).
+* `useradd [username]` — Add a new user (generic command).
+* `passwd [username]` — Set or change password for user.
+* `usermod [options] [username]` — Modify an existing user.
+* `userdel [username]` — Delete a user account.
+* `userdel -r [username]` — Delete user and their home directory.
+
+***
+
+**Group Management**
+
+* `groupadd [groupname]` — Create a new group.
+* `groupdel [groupname]` — Delete a group.
+* `groupmod [options] [groupname]` — Modify group.
+* `gpasswd [groupname]` — Administer group settings.
+
+***
+
+**Add/Remove Users to/from Groups**
+
+* `usermod -aG [group] [user]` — Add user to group (append).
+* `gpasswd -a [user] [group]` — Add user to group.
+* `gpasswd -d [user] [group]` — Remove user from group.
+
+***
+
+**Viewing Users and Groups**
+
+* `id [username]` — Show UID, GID, and groups.
+* `whoami` — Show current logged-in username.
+* `groups [username]` — Show groups for user.
+* `getent passwd` — List all users.
+* `getent group` — List all groups.
+
+***
+
+**Home Directory and Shell**
+
+* `useradd -m [user]` — Create user with home directory.
+* `useradd -s /bin/bash [user]` — Set login shell.
+* `usermod -d /new/home [user]` — Change home directory.
+* `chsh -s /bin/zsh [user]` — Change user shell.
+
+***
+
+**Account Locking and Expiry**
+
+* `passwd -l [user]` — Lock user account.
+* `passwd -u [user]` — Unlock user account.
+* `usermod -e YYYY-MM-DD [user]` — Set account expiration date.
+* `usermod -L [user]` — Lock account.
+* `usermod -U [user]` — Unlock account.
+* `chage [options] [user]` — Manage password expiration.
+
+***
+
+**Important Files**
+
+* `/etc/passwd` — User account information.
+* `/etc/shadow` — Encrypted passwords and expiration data.
+* `/etc/group` — Group information.
+* `/etc/sudoers` — Sudo permissions (edit with `visudo`).
+
+***
+
+**View Permissions**
+
+* `ls -l` — List files with permissions.
+* `stat [file]` — Detailed file permission and ownership info.
+
+***
+
+**Change File/Directory Permissions**
+
+* `chmod [permissions] [file]` — Change file/directory permissions (symbolic or numeric).
+  * Example (numeric): `chmod 755 script.sh`
+  * Example (symbolic): `chmod u+x file.txt`
+
+***
+
+**Change Ownership**
+
+* `chown [user] [file]` — Change owner of file.
+* `chown [user]:[group] [file]` — Change owner and group.
+  * Example: `chown john:developers file.txt`
+
+***
+
+**Change Group**
+
+* `chgrp [group] [file]` — Change group ownership only.
+  * Example: `chgrp staff report.txt`
+
+***
+
+**Special Permission Bits**
+
+* `chmod +s [file]` — Set SUID or SGID on file.
+* `chmod +t [directory]` — Set sticky bit on directory (e.g., `/tmp`).
+
+#### **SUID (Set User ID)**
+
+* Applies to **executable files**.
+* When a file with the SUID bit is executed, it **runs with the permissions of the file owner**, not the user running it.
+* Common use: let normal users run a command with **root privileges** (safely).
+
+
+
+#### **Sticky Bit**
+
+* Applies to **directories**.
+* Prevents users from deleting files they **don't own**, even if they have write permissions to the directory.
+
+**Commonly used on:**
+
+* `/tmp` directory — everyone can write, but only delete their own files.
+
+drwxrwxrwt 10 root root 4096 /tmp
+
+```
+The t at the end indicates the sticky bit.
+```
 
 ## Remote Access&#x20;
 
