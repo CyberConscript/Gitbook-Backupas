@@ -112,6 +112,8 @@
     * [Triage](theory/cybersecurity/viii-security-operations/triage/README.md)
       * [Samples](theory/cybersecurity/viii-security-operations/triage/samples.md)
     * [Investigations](theory/cybersecurity/viii-security-operations/investigations/README.md)
+      * [System startup](theory/cybersecurity/viii-security-operations/investigations/system-startup/README.md)
+        * [Master Boot Record](theory/cybersecurity/viii-security-operations/investigations/system-startup/master-boot-record.md)
       * [EvenIDs](theory/cybersecurity/viii-security-operations/investigations/evenids.md)
       * [Malware analysis](theory/cybersecurity/viii-security-operations/investigations/malware-analysis/README.md)
         * [YARA](theory/cybersecurity/viii-security-operations/investigations/malware-analysis/yara.md)
