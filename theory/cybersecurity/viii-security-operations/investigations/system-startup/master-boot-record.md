@@ -38,7 +38,20 @@ An MBR disk has a total of 4 partitions, and each partition is represented by 16
 * Every partition uses a filesystem such as NTFS, FAT32, etc. This byte indicates the filesystem of the partition. The partition we are taking as a reference has this byte as `07`, which means it is an NTFS partition. Every filesystem has its own unique byte. You can learn about the bytes used for other filesystems from [here](https://www.writeblocked.org/resources/MBR_GPT_cheatsheet.pdf).
 * **Ending CHS Address:** The last 3 bytes at the end of the CHS Address indicates the physical location where the partition ends on the disk.
 * **Starting LBA Address:** Logical Block Addressing (LBA) is the logical address that indicates the start of the partition. We saw that the Starting CHS Address also gives us the starting address of the partition, but because CHS gives you the physical address of the partition, it becomes difficult for us to locate it. However, the Starting LBA Address gives you the logical address of the partition rather than the physical address.
-* **Number of Sectors:** These last 4 bytes of a partition tell you the number of sectors in the partition. We will calculate the sector's size by using this field ahead.
+*   **Number of Sectors:** These last 4 bytes of a partition tell you the number of sectors in the partition. We will calculate the sector's size by using this field. As per our partition, these bytes are `00 B0 23 03` and if we reverse it as they are in little-endian, they become `03 23 B0 00`. The next step is to convert them to decimal. You can find the decimal value within the HxD tool by highlighting the bytes just as we did for the starting LBA address while locating the partition. The decimal value comes out to be `52,670,464`. Now, as we know, each sector's size is 512 bytes. We can multiply them to get the size of this partition in bytes.
+
+    `52,670,464 x 512 = 26,967,277,568 bytes`
+
+
+
+To sum up the whole boot process of the MBR:
+
+1. The initial bootloader starts from the bootloader code (the first component of the MBR).
+2. It then finds the bootable partition from the partition table (the second component of the MBR).
+3. Then it loads the second bootloader from this bootable partition.
+4. Finally, with this, the OS kernel gets loaded, and after this process, the drivers, services, and filesystems are loaded into the memory, and the user is given control of the OS interface. This is a system's whole boot process using an MBR partitioned disk.
+
+
 
 
 
