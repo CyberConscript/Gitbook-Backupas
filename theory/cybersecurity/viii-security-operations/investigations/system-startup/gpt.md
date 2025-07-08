@@ -12,6 +12,15 @@ UEFI firmware with the GPT partitioning scheme replaced BIOS firmware with the M
 * Backup GPT header
 * Backup partition entry array
 
+| Addresses          | Name                               |                                                                                                                                                                                                                                                                       |
+| ------------------ | ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 00000000-000001BD  | **Protective MBR** Bootloader Code |                                                                                                                                                                                                                                                                       |
+| 000001BE-0000001FD | **Protective MBR** Partition Table | This partition table contains only one partition (the first 16 bytes), and this partition has one job; to redirect the system to the EFI Partition                                                                                                                    |
+| 000001FE-0000001FF | MBR Signature                      | The MBR signature is the same as in the standard MBR. It is set to `55 AA` and marks the end of the Protective MBR.                                                                                                                                                   |
+| 00000200-000003FF  | Primary GPT header                 | The GPT header starts right from the next byte (the start of sector 1) after the Protective MBR ends at `55 AA` (the end of sector 0). It acts as a blueprint of the partitions on the disk. All the bytes in the GPT header have a specific meaning. 512 Bytes size. |
+| 00000400-00004400  | Partition Entry Array              | Partition Entry Array of a GPT disk. Each partition entry is represented by 128 bytes (00000400-0000047F)                                                                                                                                                             |
+|                    | Backup partition entry array       |                                                                                                                                                                                                                                                                       |
+
 
 
 
