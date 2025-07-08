@@ -4,10 +4,8 @@ UEFI firmware with the GPT partitioning scheme replaced BIOS firmware with the M
 
 
 
-
-
 * **Protective MBR** - if the disk is GPT partitioned, the system should have UEFI firmware to handle it. However, some legacy systems still use BIOS firmware even though the disk is GPT partitioned. This can be a problem as the BIOS firmware is designed to work with the MBR and UEFI firmware is designed to work with the GPT. To solve this problem, the GPT has Protective MBR. The Protective MBR is in the disk's first sector, partitioned with the GPT. The purpose of the Protective MBR is to signal the BIOS system that this disk is using the GPT, so please don't mess up with it thinking that it is the MBR.
-* Primary GPT header
+* **Primary GPT header** - It acts as a blueprint of the partitions on the disk.
 * Partition Entry Array
 * Backup GPT header
 * Backup partition entry array

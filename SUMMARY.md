@@ -161,6 +161,7 @@
   * [Operating systems](theory/computer-science/operating-systems/README.md)
     * [Theory](theory/computer-science/operating-systems/theory.md)
     * [Windows OS](theory/computer-science/operating-systems/windows-os/README.md)
+      * [User accounts](theory/computer-science/operating-systems/windows-os/user-accounts.md)
       * [Page 3](theory/computer-science/operating-systems/windows-os/page-3.md)
     * [Linux](theory/computer-science/operating-systems/linux/README.md)
       * [Commands](theory/computer-science/operating-systems/linux/commands.md)
