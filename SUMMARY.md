@@ -166,6 +166,8 @@
     * [Linux](theory/computer-science/operating-systems/linux/README.md)
       * [Commands](theory/computer-science/operating-systems/linux/commands.md)
   * [Technologies](theory/computer-science/technologies/README.md)
+    * [Active directory](theory/computer-science/technologies/active-directory/README.md)
+      * [Group Policy Objects (GPOs)](theory/computer-science/technologies/active-directory/group-policy-objects-gpos.md)
     * [Version control](theory/computer-science/technologies/version-control/README.md)
       * [Git](theory/computer-science/technologies/version-control/git.md)
     * [Emails](theory/computer-science/technologies/emails/README.md)
