@@ -221,8 +221,6 @@
   * [Page 1](learning-list/page-1.md)
 * [Quick cybersecurity intro](quick-cybersecurity-intro.md)
 * [Cyber domains](cyber-domains.md)
-* [I Application security](i-application-security.md)
-* [II Career development](ii-career-development.md)
 * [APT](apt.md)
 * [1.InfoSec](1.infosec.md)
 * [Practice](practice.md)
