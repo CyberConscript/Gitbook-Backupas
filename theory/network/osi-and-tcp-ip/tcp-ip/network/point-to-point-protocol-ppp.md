@@ -42,5 +42,5 @@ One key advantage of PPP is that it is extensible. Over the years, new protocols
 
 
 
-<figure><img src="../../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
 

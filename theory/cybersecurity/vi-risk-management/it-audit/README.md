@@ -7,7 +7,7 @@ Remember that the key is to align an audit approach with business objectives.
 3. The reporting phase: The findings and insights gathered during the fieldwork are compiled in a report. This report provides an overview of the audit results, including identified issues and recommendations for improvement. It’s essential for communicating the audit’s value and guiding future action.
 4. The follow-up phase: This final stage involves tracking the implementation of audit recommendations. Auditors can revisit the audited areas to ensure that corrective actions have been effectively implemented and that they provide the intended benefits.
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 The process typically consists of the following primary stages:
 

@@ -4,11 +4,11 @@
 
 All in one decive acting as gateway. It also includes management function. This architecture is appropriate for the smallest environments that require protection, but lacks budged.
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 To decrease burned from one device and somewhat separate management from gateway alternative could be built in this way
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 The advantage of this approach is the ability to manage many gateways from a common management server using a common object database. Even when the management is down, gateway still operates and collects logs waiting for it to sent to management server later.
 
