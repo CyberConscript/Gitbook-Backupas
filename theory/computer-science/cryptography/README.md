@@ -7,12 +7,11 @@ Cryptography is used to protect confidentiality, integrity, and authenticity. In
 * When you log in to website, your credentials are encrypted and sent to the server so that no one can retrieve them by snooping on your connection.
 * When you connect over SSH, your SSH client and the server establish an encrypted tunnel so no one can eavesdrop on your session.
 * When you conduct online banking, your browser checks the remote server’s certificate to confirm that you are communicating with your bank’s server and not an attacker’s.
-* When you download a file, how do you check if it was downloaded correctly? Cryptography provides a solution through hash functions to confirm that your file is identical to the original one
-
-
-
-
-
+* When you download a file, how do you check if it was downloaded correctly? Cryptography provides a solution through hash functions to confirm that your file is identical to the original one.
+* **Cryptography** is the science of securing communication and data using codes and ciphers.
+* **Cryptanalysis** is the study of methods to break or bypass cryptographic security systems without knowing the key.
+* **Brute-Force Attack** is an attack method that involves trying every possible key or password to decrypt a message.
+* **Dictionary Attack** is an attack method where the attacker tries dictionary words or combinations of them.
 * **Authentication**: You want to be sure you communicate with the right person, not someone else pretending.
 * **Authenticity**: You can verify that the information comes from the claimed source.
 * **Integrity**: You must ensure that no one changes the data you exchange.
@@ -22,7 +21,7 @@ Cryptography is used to protect confidentiality, integrity, and authenticity. In
 
 The encryption function is part of the cipher; a cipher is an algorithm to convert a plaintext into a ciphertext and vice versa.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Decryption\
 
@@ -90,7 +89,7 @@ We need to make some assumptions. Firstly, whenever we combine secrets, they’r
 * Alice chooses a=13
 * Bob chooses b=15
 
-### **Ką tai reiškia Diffie–Hellman'e?**
+#### **Ką tai reiškia Diffie–Hellman'e?**
 
 
 
@@ -116,7 +115,42 @@ If you found the previous paragraphs too abstract, let’s investigate the exact
 
 Digital signatures provide a way to verify the authenticity and integrity of a digital message or document. Proving the authenticity of files means we know who created or modified them. Using asymmetric cryptography, you produce a signature with your private key, which can be verified using your public key. Only you should have access to your private key, which proves you signed the file. In many modern countries, digital and physical signatures have the same legal value.
 
-
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 The simplest form of digital signature is encrypting the document with your private key. If someone wants to verify this signature, they would decrypt it with your public key and check if the files match. This process is shown in the image below.
+
+## Certificates: Chain of trust
+
+Certificates are an essential application of public key cryptography, and they are also linked to digital signatures. A common place where they’re used is for HTTPS. How does your web browser know that the server you’re talking to is the real tryhackme.com?
+
+The answer lies in certificates. The web server has a certificate that says it is the real tryhackme.com. The certificates have a chain of trust, starting with a root CA (Certificate Authority). From install time, your device, operating system, and web browser automatically trust various root CAs. Certificates are trusted only when the Root CAs say they trust the organisation that signed them. In a way, it is a chain; for example, the certificate is signed by an organisation, the organisation is trusted by a CA, and the CA is trusted by your browser. Therefore, your browser trusts the certificate. In general, there are long chains of trust. You can take a look at the certificate authorities trusted by Mozilla Firefox [here](https://wiki.mozilla.org/CA/Included_Certificates) and by Google Chrome [here](https://chromium.googlesource.com/chromium/src/+/main/net/data/ssl/chrome_root_store/root_store.md).
+
+
+
+
+
+#### PGP and GPG
+
+**PGP** stands for Pretty Good Privacy. It’s software that implements encryption for encrypting files, performing digital signing, and more. [GnuPG or GPG](https://gnupg.org/) is an open-source implementation of the OpenPGP standard.
+
+GPG is commonly used in email to protect the confidentiality of the email messages. Furthermore, it can be used to sign an email message and confirm its integrity.
+
+
+
+Below is an example of generating GPG. You are asked about the purpose of using `gpg`, whether signing only or signing and encrypting. Besides selecting the cryptographic algorithm, we needed to choose an expiry date for the generated key. Finally, we provided some information about us: our name, email address, and a comment usually about the purpose of this key.
+
+
+
+You may need to use GPG to decrypt files in CTFs. With PGP/GPG, private keys can be protected with passphrases in a similar way that we protect SSH private keys. If the key is passphrase protected, you can attempt to crack it using John the Ripper and `gpg2john`. The key provided in this task is not protected with a passphrase. The man page for GPG can be found online [here](https://www.gnupg.org/gph/de/manual/r1023.html).
+
+
+
+Now that you have your GPG key pair, you can share the public key with your contacts. Whenever your contacts want to communicate securely, they encrypt their messages to you using your public key. To decrypt the message, you will have to use your private key. Due to the importance of the GPG keys, it is vital that you keep a backup copy in a secure location.
+
+Let’s say you got a new computer. All you need to do is import your key, and you can start decrypting your received messages again:
+
+* You would use `gpg --import backup.key` to import your key from backup.key
+* To decrypt your messages, you need to issue `gpg --decrypt confidential_message.gpg`
+
+
 

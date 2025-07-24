@@ -163,6 +163,7 @@
       * [Exploitation Frameworks](theory/cybersecurity/xi-vulnerabilities/exploitation-frameworks.md)
 * [Computer Science](theory/computer-science/README.md)
   * [Cryptography](theory/computer-science/cryptography/README.md)
+    * [Hashing](theory/computer-science/cryptography/hashing.md)
     * [Math](theory/computer-science/cryptography/math.md)
     * [SSH](theory/computer-science/cryptography/ssh.md)
   * [Operating systems](theory/computer-science/operating-systems/README.md)
