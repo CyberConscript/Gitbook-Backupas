@@ -154,3 +154,7 @@ Let’s say you got a new computer. All you need to do is import your key, and y
 
 
 
+### NTHash / NTLM
+
+Windows New Technology LAN Manager (NTLM) is a suite of security protocols offered by Microsoft to authenticate users’ identity and protect the integrity and confidentiality of their activity.
+

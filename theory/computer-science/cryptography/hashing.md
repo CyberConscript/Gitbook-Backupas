@@ -26,7 +26,7 @@ The **pigeonhole effect** states that the number of items (_pigeons_) is more th
 
 
 
-#### Linux Passwords
+## Linux Passwords
 
 On Linux, password hashes are stored in `/etc/shadow`, which is normally only readable by root. They used to be stored in `/etc/passwd`, which was readable by everyone.
 
@@ -60,11 +60,17 @@ In the example above, we have four parts separated by `$`:
 
 
 
-#### MS Windows Passwords
+## MS Windows Passwords
 
 MS Windows passwords are hashed using NTLM, a variant of MD4. They’re visually identical to MD4 and MD5 hashes, so it’s very important to use context to determine the hash type.
 
 On MS Windows, password hashes are stored in the SAM (Security Accounts Manager). MS Windows tries to prevent normal users from dumping them, but tools like mimikatz exist to circumvent MS Windows security. Notably, the hashes found there are split into NT hashes and LM hashes.
+
+
+
+A bit of history: the NT designation for Windows products originally meant New Technology. It was used starting with Windows NT to denote products not built from the MS-DOS Operating System. Eventually, the “NT” line became the standard Operating System type to be released by Microsoft, and the name was dropped, but it still lives on in the names of some Microsoft technologies.
+
+In Windows, SAM (Security Account Manager) is used to store user account information, including usernames and hashed passwords. You can acquire NTHash/NTLM hashes by dumping the SAM database on a Windows machine, using a tool like Mimikatz, or using the Active Directory database: `NTDS.dit`. You may not have to crack the hash to continue privilege escalation, as you can often conduct a “pass the hash” attack instead, but sometimes, hash cracking is a viable option if there is a weak password policy.
 
 A great place to find more hash formats and password prefixes is the [Hashcat Example Hashes](https://hashcat.net/wiki/doku.php?id=example_hashes) page. For other hash types, you’ll typically need to check the length or encoding or even conduct some research into the application that generated them. Never underestimate the power of research.
 
@@ -73,7 +79,7 @@ hashcat -m 3200 -a 0 \~/Hashing-Basics/Task-6/hash1.txt\
 
 
 
-
+[https://tryhackme.com/room/johntheripperbasics](https://tryhackme.com/room/johntheripperbasics)
 
 ## John the ripper
 
@@ -136,3 +142,8 @@ john --format=whirlpool --wordlist=/usr/share/wordlists/rockyou.txt hash4.txt
 **A Note on Formats:**
 
 When you tell John to use formats, if you’re dealing with a standard hash type, e.g. md5 as in the example above, you have to prefix it with `raw-` to tell John you’re just dealing with a standard hash type, though this doesn’t always apply. To check if you need to add the prefix or not, you can list all of John’s formats using `john --list=formats` and either check manually or grep for your hash type using something like `john --list=formats | grep -iF "md5"`.
+
+
+
+
+
