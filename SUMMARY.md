@@ -163,6 +163,8 @@
       * [Exploitation Frameworks](theory/cybersecurity/xi-vulnerabilities/exploitation-frameworks.md)
 * [Computer Science](theory/computer-science/README.md)
   * [Cryptography](theory/computer-science/cryptography/README.md)
+    * [Rainbow Table](theory/computer-science/cryptography/rainbow-table.md)
+    * [HMACs](theory/computer-science/cryptography/hmacs.md)
     * [Hashing](theory/computer-science/cryptography/hashing.md)
     * [Math](theory/computer-science/cryptography/math.md)
     * [SSH](theory/computer-science/cryptography/ssh.md)
