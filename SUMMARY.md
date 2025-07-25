@@ -189,6 +189,8 @@
       * [C - Environment Setup](theory/computer-science/languages/c/c-environment-setup.md)
       * [Program structure](theory/computer-science/languages/c/program-structure.md)
       * [Compiling](theory/computer-science/languages/c/compiling.md)
+  * [SSDLC](theory/computer-science/ssdlc/README.md)
+    * [Risk Assessment](theory/computer-science/ssdlc/risk-assessment.md)
 * [Electronics](theory/electronics/README.md)
   * [Arduino](theory/electronics/arduino/README.md)
     * [Programming](theory/electronics/arduino/programming.md)

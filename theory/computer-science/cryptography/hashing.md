@@ -30,6 +30,10 @@ The **pigeonhole effect** states that the number of items (_pigeons_) is more th
 
 On Linux, password hashes are stored in `/etc/shadow`, which is normally only readable by root. They used to be stored in `/etc/passwd`, which was readable by everyone.
 
+The `/etc/shadow` file is the file on Linux machines where password hashes are stored. It also stores other information, such as the date of last password change and password expiration information. It contains one entry per line for each user or user account of the system. This file is usually only accessible by the root user, so you must have sufficient privileges to access the hashes. However, if you do, there is a chance that you will be able to crack some of the hashes.
+
+
+
 The `shadow` file contains the password information. Each line contains nine fields, separated by colons (`:`). The first two fields are the login name and the encrypted password. More information about the other fields can be found by executing `man 5 shadow` on a Linux system.
 
 
@@ -58,7 +62,17 @@ In the example above, we have four parts separated by `$`:
 * `76UzfgEM5PnymhQ7TlJey1` is the salt used
 * `/OOSg64dhfF.TigVPdzqiFang6uZA4QA1pzzegKdVm4` is the hash value''
 
+### Unshadowing
 
+John can be very particular about the formats it needs data in to be able to work with it; for this reason, to crack `/etc/shadow` passwords, you must combine it with the `/etc/passwd` file for John to understand the data it’s being given. To do this, we use a tool built into the John suite of tools called `unshadow`. The basic syntax of `unshadow` is as follows:
+
+`unshadow [path to passwd] [path to shadow]`
+
+* `unshadow`: Invokes the unshadow tool
+* `[path to passwd]`: The file that contains the copy of the `/etc/passwd` file you’ve taken from the target machine
+* `[path to shadow]`: The file that contains the copy of the `/etc/shadow` file you’ve taken from the target machine
+
+`unshadow local_passwd local_shadow > unshadowed.txt`
 
 ## MS Windows Passwords
 
@@ -120,7 +134,13 @@ Sometimes, John won’t play nicely with automatically recognizing and loading h
 
 To use hash-identifier, you can use `wget` or `curl` to download the Python file `hash-id.py` from its GitLab [page](https://gitlab.com/kalilinux/packages/hash-identifier/-/raw/kali/master/hash-id.py). Then, launch it with `python3 hash-id.py` and enter the hash you’re trying to identify. It will give you a list of the most probable formats. These two steps are shown in the terminal below.
 
+### Using Single Crack Mode
 
+To use single crack mode, we use roughly the same syntax that we’ve used so far; for example, if we wanted to crack the password of the user named “Mike”, using the single mode, we’d use:
+
+`john --single --format=[format] [path to file]`
+
+`john --single --format=raw-sha256 hashes.txt`
 
 ### Format-Specific Cracking
 
@@ -145,5 +165,66 @@ When you tell John to use formats, if you’re dealing with a standard hash type
 
 
 
+### Common Custom Rules
+
+Many organisations will require a certain level of password complexity to try and combat dictionary attacks. In other words, when creating a new account or changing your password, if you attempt a password like `polopassword`, it will most likely not work. The reason would be the enforced password complexity. As a result, you may receive a prompt telling you that passwords have to contain at least one character from each of the following:
+
+* Lowercase letter
+* Uppercase letter
+* Number
+* Symbol
 
 
+
+### How to create Custom Rules
+
+Custom rules are defined in the `john.conf` file. This file can be found in `/opt/john/john.conf` on the TryHackMe Attackbox. It is usually located in `/etc/john/john.conf` if you have installed John using a package manager or built from source with `make`.
+
+
+
+
+
+### Zip2John
+
+Similarly to the `unshadow` tool we used previously, we will use the `zip2john` tool to convert the Zip file into a hash format that John can understand and hopefully crack. The primary usage is like this:
+
+`zip2john [options] [zip file] > [output file]`
+
+* `[options]`: Allows you to pass specific checksum options to `zip2john`; this shouldn’t often be necessary
+* `[zip file]`: The path to the Zip file you wish to get the hash of
+* `>`: This redirects the output from this command to another file
+* `[output file]`: This is the file that will store the output
+
+**Example Usage**
+
+`zip2john zipfile.zip > zip_hash.txt`
+
+#### Cracking
+
+We’re then able to take the file we output from `zip2john` in our example use case, `zip_hash.txt`, and, as we did with `unshadow`, feed it directly into John as we have made the input specifically for it.
+
+`john --wordlist=/usr/share/wordlists/rockyou.txt zip_hash.txt`
+
+
+
+### Rar2John
+
+Almost identical to the `zip2john` tool, we will use the `rar2john` tool to convert the RAR file into a hash format that John can understand. The basic syntax is as follows:
+
+`rar2john [rar file] > [output file]`
+
+* `rar2john`: Invokes the `rar2john` tool
+* `[rar file]`: The path to the RAR file you wish to get the hash of
+* `>`: This redirects the output of this command to another file
+* `[output file]`: This is the file that will store the output from the command\
+
+
+**Example Usage**
+
+`/opt/john/rar2john rarfile.rar > rar_hash.txt`
+
+#### Cracking
+
+Once again, we can take the file we output from `rar2john` in our example use case, `rar_hash.txt`, and feed it directly into John as we did with `zip2john`.
+
+`john --wordlist=/usr/share/wordlists/rockyou.txt rar_hash.txt`
