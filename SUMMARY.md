@@ -171,6 +171,8 @@
   * [Operating systems](theory/computer-science/operating-systems/README.md)
     * [Theory](theory/computer-science/operating-systems/theory.md)
     * [Windows OS](theory/computer-science/operating-systems/windows-os/README.md)
+      * [Processes](theory/computer-science/operating-systems/windows-os/processes/README.md)
+        * [User mode and kernel mode](theory/computer-science/operating-systems/windows-os/processes/user-mode-and-kernel-mode.md)
       * [Registry](theory/computer-science/operating-systems/windows-os/registry.md)
       * [User accounts](theory/computer-science/operating-systems/windows-os/user-accounts/README.md)
         * [Network artefacts](theory/computer-science/operating-systems/windows-os/user-accounts/network-artefacts.md)
