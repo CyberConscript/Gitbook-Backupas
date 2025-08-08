@@ -171,6 +171,7 @@
   * [Operating systems](theory/computer-science/operating-systems/README.md)
     * [Theory](theory/computer-science/operating-systems/theory.md)
     * [Windows OS](theory/computer-science/operating-systems/windows-os/README.md)
+      * [Process](theory/computer-science/operating-systems/windows-os/process.md)
       * [Processes](theory/computer-science/operating-systems/windows-os/processes/README.md)
         * [User mode and kernel mode](theory/computer-science/operating-systems/windows-os/processes/user-mode-and-kernel-mode.md)
       * [Registry](theory/computer-science/operating-systems/windows-os/registry.md)
