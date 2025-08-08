@@ -11,7 +11,7 @@ What is unusual behaviour for this process?
 * A different PID. (Remember that the PID will always be PID 4)
 * Not running in Session 0
 
-<figure><img src="../../../../.gitbook/assets/system2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/system2.png" alt=""><figcaption></figcaption></figure>
 
 ## SMSS (Session Manager Subsystem)
 
@@ -59,7 +59,7 @@ Number of Instances: One master instance and child instance per session. The chi
 User Account: Local System\
 Start Time: Within seconds of boot time for the master instance
 
-<figure><img src="../../../../.gitbook/assets/smss.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/smss.png" alt=""><figcaption></figcaption></figure>
 
 Unusual:
 
@@ -159,7 +159,7 @@ The Service Host (Host Process for Windows Services), or svchost.exe, is respons
 
 The services running in this process are implemented as DLLs. The DLL to implement is stored in the registry for the service under the `Parameters` subkey in `ServiceDLL`.  Each Windows service has a **registry entry** at:`HKLM\SYSTEM\CurrentControlSet\Services\SERVICE NAME\Parameters`. Parameter **ServiceDLL** → the path to the DLL that implements the service.
 
-<figure><img src="../../../../.gitbook/assets/dcomlaunch3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/dcomlaunch3.png" alt=""><figcaption></figcaption></figure>
 
 There is a key identifier in the binary path, and that identifier is `-k` . This is how a legitimate svchost.exe process is called.  svchost.exe -k netsvcs
 
