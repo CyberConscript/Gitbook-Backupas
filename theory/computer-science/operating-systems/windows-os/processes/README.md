@@ -179,11 +179,103 @@ Number of Instances: Many\
 User Account: Varies (SYSTEM, Network Service, Local Service) depending on the svchost.exe instance. In Windows 10, some instances run as the logged-in user.\
 Start Time: Typically within seconds of boot time. Other instances of svchost.exe can be started after boot.
 
-
-
 What is unusual?
 
 * A parent process other than services.exe
 * Image file path other than C:\Windows\System32
 * Subtle misspellings to hide rogue processes in plain sight
 * The absence of the -k parameter
+
+
+
+## Windows Explorer, explorer.exe
+
+This process gives the user access to their folders and files. It also provides functionality for other features, such as the Start Menu and Taskbar.
+
+The Winlogon process runs userinit.exe, which launches the value in `HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\Shell`. Userinit.exe exits after spawning explorer.exe. Because of this, the parent process is non-existent.&#x20;
+
+There will be many child processes for explorer.exe.
+
+Normal:
+
+Image Path: %SystemRoot%\explorer.exe\
+Parent Process: Created by userinit.exe and exits\
+Number of Instances: One or more per interactively logged-in user\
+User Account: Logged-in user(s)\
+Start Time: First instance when the first interactive user logon session begins
+
+\
+What is unusual?
+
+* An actual parent process. (userinit.exe calls this process and exits)
+* Image file path other than C:\Windows
+* Running as an unknown user
+* Subtle misspellings to hide rogue processes in plain sight
+* Outbound TCP/IP connections
+
+
+
+Windows Logon, winlogon.exe
+
+The Windows Logon, winlogon.exe, is responsible for handling the Secure Attention Sequence (SAS). It is the ALT+CTRL+DELETE key combination users press to enter their username & password.
+
+This process is also responsible for loading the user profile. It loads the user's NTUSER.DAT into HKCU, and userinit.exe loads the user's shell. Read more about this process [here](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc939862\(v=technet.10\)?redirectedfrom=MSDN).\
+
+
+It is also responsible for locking the screen and running the user's screensaver, among other functions. You can read more about this process [here](https://en.wikipedia.org/wiki/Winlogon).\
+Remember from earlier sections, smss.exe launches this process along with a copy of csrss.exe within Session 1.
+
+Normal:
+
+Image Path: %SystemRoot%\System32\winlogon.exe\
+Parent Process: Created by an instance of smss.exe that exits, so analysis tools usually do not provide the parent process name.\
+Number of Instances: One or more\
+User Account: Local System\
+Start Time: Within seconds of boot time for the first instance (for Session 1). Additional instances occur as new sessions are created, typically through Remote Desktop or Fast User Switching logons.
+
+What is unusual?
+
+* An actual parent process. (smss.exe calls this process and self-terminates)
+* Image file path other than C:\Windows\System32
+* Subtle misspellings to hide rogue processes in plain sight
+* Not running as SYSTEM
+* Shell value in the registry other than explorer.exe
+
+
+
+## Local Security Authority Subsystem Service (LSASS)
+
+Per Wikipedia, "Local Security Authority Subsystem Service (LSASS) is a process in Microsoft Windows operating systems that is responsible for enforcing the security policy on the system. It verifies users logging on to a Windows computer or server, handles password changes, and creates access tokens. It also writes to the Windows Security Log."
+
+It creates security tokens for SAM (Security Account Manager), AD (Active Directory), and NETLOGON. It uses authentication packages specified in `HKLM\System\CurrentControlSet\Control\Lsa`.
+
+
+
+Lsass.exe is another process adversaries target. Common tools such as mimikatz are used to dump credentials, or adversaries mimic this process to hide in plain sight. Again, they do this by either naming their malware by this process name or simply misspelling the malware slightly. \
+Extra reading: [How LSASS is maliciously used and additional features that Microsoft has put into place to prevent these attacks](https://yungchou.wordpress.com/2016/03/14/an-introduction-of-windows-10-credential-guard/).
+
+Normal:
+
+Image Path:  %SystemRoot%\System32\lsass.exeParent&#x20;
+
+Process:  wininit.exe
+
+Number of Instances:  One
+
+User Account:  Local System
+
+Start Time:  Within seconds of boot time\
+
+
+What is unusual?
+
+* A parent process other than wininit.exe
+* Image file path other than C:\Windows\System32
+* Subtle misspellings to hide rogue processes in plain sight
+* Multiple running instances
+* Not running as SYSTEM
+
+
+
+
+
