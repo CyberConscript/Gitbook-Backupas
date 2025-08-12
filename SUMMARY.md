@@ -202,6 +202,8 @@
   * [Components](theory/electronics/components/README.md)
     * [Potentiometer](theory/electronics/components/potentiometer.md)
 * [Math](theory/math.md)
+* [Projects](theory/projects/README.md)
+  * [Contract management](theory/projects/contract-management.md)
 * [Network](theory/network/README.md)
   * [OSI and TCP/IP](theory/network/osi-and-tcp-ip/README.md)
     * [OSI](theory/network/osi-and-tcp-ip/osi.md)
