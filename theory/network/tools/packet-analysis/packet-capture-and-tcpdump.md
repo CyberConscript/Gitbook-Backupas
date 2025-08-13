@@ -19,3 +19,67 @@ Filter expressions can be combined by using Boolean operators:
 Filter syntax can be made even more detailed by using parentheses to group expressions. A complex filter expression should be enclosed by quotes. For example, the following command filters frames to those with the source IP 10.1.0.100 and destination port 53 or 80:
 
 tcpdump -i eth0 "src host 10.1.0.100 and (dst port 53 or dst port 80)"
+
+
+
+## Command examples
+
+* Capture all traffic on interface eth0
+
+```
+tcpdump -i eth0
+```
+
+* Capture traffic without DNS resolution
+
+```
+tcpdump -i eth0 -nn
+```
+
+* Capture 50 packets
+
+```
+tcpdump -i eth0 -c 50
+```
+
+* Save packets to the file
+
+```
+tcpdump -i eth0 -w capture.pcap
+```
+
+* Read packets from a file
+
+```
+tcpdump -r capture.pcap
+```
+
+* Capture only TCP traffic
+
+```
+tcpdump -A -i eth0 tcp
+```
+
+* Capture traffic from a specific host
+
+```
+tcpdump -i eth0 host 192.168.1.20
+```
+
+* Capture traffic on a specific port
+
+```
+tcpdump-i eth0 port 80
+```
+
+* Capture traffic from/to a host and port
+
+```
+tcpdump -i eth0 host 192.168.1.10 and port 80
+```
+
+* Capture HTTP traffic and show in ASCII
+
+```
+tcpdump -A -i eth0 port 80
+```
