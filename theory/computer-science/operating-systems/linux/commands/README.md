@@ -134,5 +134,115 @@ sed s/what_to_find/how_to_change/2 source_file > destination_file
 
 ## Analyzing and managing Networks
 
+* Change IP address
 
+<pre><code><strong>kali: 
+</strong><strong>ifconfig eth0 192.168.181.115
+</strong>ifconfig eth0 192.168.181.115 netmask 255.255.0.0 broadcast 192.168.1.255
+
+kali >ifconfig eth0 down
+kali >ifconfig eth0 hw ether 00:11:22:33:44:55
+kali >ifconfig eth0 up
+
+check wifi: iwconfig
+
+DNS records /etc/hosts
+
+
+ubuntu: 
+sudo ip addr add 192.168.181.115/24 dev eth0
+or
+nano /etc/netplan/01-netcfg.yaml
+sudo netplan apply
+
+
+DNS resolvers config: /etc/resolv.conf
+
+</code></pre>
+
+* get IP from dhcp
+
+```
+dhclient eth0
+
+The dhclient command sends a DHCPDISCOVER request from the network
+interface specified (here, eth0). It then receives an offer (DHCPOFFER) from the
+DHCP server (192.168.181.131 in this case) and confirms the IP assignment
+to the DHCP server with a dhcp request.
+```
+
+* Examining DNS with dig
+
+```
+dig example.com
+dig example.com A
+dig example.com AAAA
+dig example.com MX
+dig example.com NS
+dig example.com TXT
+dig -x 8.8.8.8
+dig example.com ANY
+dig example.com +short
+dig example.com +noall +answer
+dig example.com +noall +answer +authority
+dig example.com @8.8.8.8 #Use Google DNS
+dig example.com +trace
+dig example.com +multiline
+dig example.com +stats
+dig example.com +nocomments +nocmd +noquestion +noauthority +noadditional +answer
+```
+
+## Software installation
+
+
+
+In Debian-based Linux distributions, which include Kali and Ubuntu, the\
+default software manager is the Advanced Packaging Tool, or apt, whose\
+primary command is apt-get. It’s worth adding a backup repository or two that your system can search through in case it doesn’t find it a\
+specific software in the Kali repository via /etc/apt/sources.list.
+
+* Searching for a Package
+
+```
+apt-cache search <keyword>
+```
+
+* Installing Package
+
+```
+apt-get install <package_name>
+```
+
+* removing software. The remove command  \
+  doesn’t remove the configuration files, which means you can reinstall the  \
+  same package in the future without reconfiguring.
+
+```
+apt-get remove keyword
+```
+
+* Clear out everything
+
+```
+apt-get purge keyword
+```
+
+* Software repositories will be periodically updated with new software or new  \
+  versions of existing software. These updates don’t reach you automatically,  \
+  so you have to request them in order to apply these updates to your own system. Updating isn’t the same as upgrading: updating simply updates the list  \
+  of packages available for download from the repository, whereas upgrading  \
+  will upgrade the package to the latest version in the repository.
+
+```
+apt-get update
+```
+
+* Upgrade
+
+```
+apt-get upgrade
+```
+
+The servers that hold the software for particular distributions of Linux are\
+known as repositories.
 
