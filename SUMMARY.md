@@ -180,6 +180,8 @@
       * [User mode and kernel mode](theory/computer-science/operating-systems/windows-os/user-mode-and-kernel-mode.md)
     * [Linux](theory/computer-science/operating-systems/linux/README.md)
       * [Commands](theory/computer-science/operating-systems/linux/commands/README.md)
+        * [Over the wire](theory/computer-science/operating-systems/linux/commands/over-the-wire/README.md)
+          * [Bandit](theory/computer-science/operating-systems/linux/commands/over-the-wire/bandit.md)
         * [Tasks](theory/computer-science/operating-systems/linux/commands/tasks.md)
   * [Technologies](theory/computer-science/technologies/README.md)
     * [Active directory](theory/computer-science/technologies/active-directory/README.md)

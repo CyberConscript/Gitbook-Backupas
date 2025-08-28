@@ -246,3 +246,69 @@ apt-get upgrade
 The servers that hold the software for particular distributions of Linux are\
 known as repositories.
 
+Sometimes it will be that you want to install from github. Once you’ve found the software on github, you can install it from the terminal by entering the git clone command followed by its github URL.\
+For instance, bluediving is located at https://www.github.com/\* To clone it into your system, enter the command git clone:
+
+```
+git clone https://www.github.com/*
+```
+
+## C o n t r o l l i n g F i l e a n d D i r e c t o r y P e r m i s s i o n s
+
+
+
+The granting selects users permissions to read, write, or execute files - For each file and directory, we can specify the permission status for the file’s owner, for particular groups of users, and for\
+all other users.
+
+Granting Permissions\
+Each and every file and directory must be allocated a particular level of permission for the different identities using it. The three levels of permission\
+are as follows:\
+r Permission to read. This grants permission only to open and view\
+a file.\
+w Permission to write. This allows users to view and edit a file.\
+x Permission to execute. This allows users to execute a file (but not\
+necessarily view or edit it).
+
+
+
+* Granting Ownership to an Individual User ubob&#x20;
+
+```
+chown ubob /tmp/bobsfile
+```
+
+* Granting Ownership to a group usecurity&#x20;
+
+```
+chgrp usecurity /tmp/groupfiles
+```
+
+* Permissions table
+  *
+
+      <figure><img src="../../../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+* Changing mode of file&#x20;
+
+```
+chmod 774 hashcat.hcstat
+
+or in UGO notation
+
+chmod u+rwx, g+rwx, o+er hashcat.hcstat
+
+```
+
+Linux automatically assigns base permissions—usually\
+666 for files and 777 for directories. You can change the default permissions\
+allocated to files and directories created by each user with the umask (or\
+unmask) The umask value is not universal to all users on the system. Each user\
+can set a personal default umask value for the files and directories in their\
+personal .profile file.
+
+<figure><img src="../../../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+
+In addition to the three general-purpose permissions, rwx, Linux has three\
+special permissions that are slightly more complicated. These special permissions are set user ID (or SUID), set group ID (or SGID), and sticky bit.
+
+
+
