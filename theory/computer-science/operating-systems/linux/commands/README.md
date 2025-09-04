@@ -34,8 +34,6 @@ find <directory> -type <type> -name <something>
 
 
 
-
-
 * Wildcards
 
 ```
@@ -55,14 +53,10 @@ cp old_file location/copy_file
 
 
 
-
-
-
-
-* Powerful Searches with find
+* Find search / location where user root and permission with sticky bit:
 
 ```
-find <directory> -type <type> <something>
+find / -user root -perm -4000
 ```
 
 * To copy files, we use the cp command. This creates a duplicate of the file in  \
@@ -308,7 +302,91 @@ personal .profile file.
 <figure><img src="../../../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
 In addition to the three general-purpose permissions, rwx, Linux has three\
-special permissions that are slightly more complicated. These special permissions are set user ID (or SUID), set group ID (or SGID), and sticky bit.
+special permissions that are slightly more complicated. These special permissions are set user ID (or SUID), set group ID (or SGID), and sticky bit.  The sticky bit is a permission bit that you can set on a directory to allow a user to delete or rename files within that directory.
+
+Basically, the SUID bit says that any user can execute the file with the permissions of the owner but those permissions don’t extend beyond the use of\
+that file.
+
+* Setting the SUID on a file is not something a typical user would do, but if  \
+  you want to do so, you’ll use the chmod command, as in&#x20;
+
+```
+chmod 4644 filename
+```
+
+SGID also grants temporary elevated permissions, but it grants the permissions\
+of the file owner’s group, rather than of the file’s owner. This means that,\
+with an SGID bit set, someone without execute permission can execute a file if\
+the owner belongs to the group that has permission to execute that file.\
+The SGID bit works slightly differently when applied to a directory: when\
+the bit is set on a directory, ownership of new files created in that directory\
+goes to the directory creator’s group, rather than the file creator’s group.\
+This is very useful when a directory is shared by multiple users. All users in\
+that group can execute the file(s), not just a single user.\
+
+
+* Setting The SGID bit is represented as 2 before the regular permissions
+
+```
+chmod 2644 filename.
+```
+
+### Summary Table
+
+| Special Bit | Symbol       | On Files                | On Directories                                |
+| ----------- | ------------ | ----------------------- | --------------------------------------------- |
+| **SUID**    | `s` (user)   | Run as file **owner**   | No effect                                     |
+| **SGID**    | `s` (group)  | Run as file’s **group** | New files inherit group                       |
+| **Sticky**  | `t` (others) | Obsolete (was caching)  | <p></p><p>Only owner can delete own files</p> |
+
+* `ls -l` will show `s` or `t` instead of `x`.
+* `chmod` numeric values:
+  * `4` = SUID
+  * `2` = SGID
+  * `1` = Sticky
+
+
+
+## Linux Special Permissions (Easy Version)
+
+Normally, files and folders have **r (read), w (write), x (execute)** for _owner, group, others_.\
+But there are **3 extra special permissions**:
+
+***
+
+#### 1. **SUID (Set User ID)**
+
+* **What it does:** If a program has SUID, it runs as the **owner of the file**, not the person who started it.
+* **Why useful:** Lets normal users do something that normally only the owner (often root) can do.
+* **Example:** The `passwd` command (used to change your password).
+  * You run it as a normal user → it runs with root’s power → it can edit the password file.
+
+***
+
+#### 2. **SGID (Set Group ID)**
+
+* **What it does on a file:** Program runs with the **file’s group**, not your group.
+* **What it does on a folder:** All new files inside get the **same group as the folder**, not the user’s default group.
+* **Why useful:** Shared project folders. Everyone in the group automatically shares new files.
+
+***
+
+#### 3. **Sticky Bit**
+
+* **What it does on a folder:** Only the person who made a file can delete it (even if others have write access).
+* **Why useful:** In `/tmp` (a folder everyone uses), you don’t want other users deleting your stuff.
+
+***
+
+## Quick Memory Trick
+
+* **SUID = runs as User (file owner)**
+* **SGID = runs as Group (file’s group)**
+* **Sticky = only owner can Stick (delete own files in shared folder)**
+
+
+
+## Process management
 
 
 
