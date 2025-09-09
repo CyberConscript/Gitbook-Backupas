@@ -388,5 +388,188 @@ But there are **3 extra special permissions**:
 
 ## Process management
 
+* Checking processes for all users
+
+```
+ps aux
+```
+
+
+
+* Changing Process Priority with nice. A high nice value translates to a low priority, and a  \
+  low nice value translates to a high priority (when you’re not being so nice  \
+  to other users and processes). When a process is started, it inherits the nice  \
+  value of its parent process. The owner of the process can lower the priority  \
+  of the process but cannot increase its priority. This command would increment the nice value by -10, increasing its priority and allocating it more resources.
+
+```
+nice -n -10 /bin/slowprocess
+renice 20 6996
+```
+
+So, if slowprocess is using an inordinate amount of resources on your system and you want to give it\
+a lower priority, thus allowing other processes a higher priority and more resources, you could renice the slowprocess (which has a PID of 6996) and give it a much higher nice value.
+
+
+
+* Commonly Used Kill Signals
+*
+
+    <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+* ```
+  kill -9 6996
+  killall -9 zombieprocess
+  ```
+* Runnning in background. Running a process in the background simply means that it will continue to run without needing the terminal. In this way, the terminal is freed up for other duties
+
+```
+script_to_run_in_background_name &
+```
+
+* To return from background to foreground run fg:
+
+```
+fg 1234
+```
+
+## Scheduling
+
+In Linux, schedulling can be accomplishedin at least two ways: with at and crond.
+
+The at command is a daemon—a background process—useful for scheduling a job to run once at some point in the future. The crond is more suited for scheduling tasks to occur every day, week, or month.
+
+
+
+* When you enter the at daemon with the specified time, at goes into  \
+  interactive mode and you are greeted with an at> prompt. Here is where  \
+  you enter the command you want executed at the specified time:
+
+```
+#> at 7:20am
+at >/root/myscanningscript
+```
+
+
+
+* cron
+
+```
+at 7:20am
+at >/root/myscanningscript
+```
+
+## Enviromental variables
+
+Most commands are located in the sbin or bin subdirectory, like /usr/local/sbin or usr/local/bin. If the bash shell doesn’t find the command in one of the directories in your PATH variable, it will\
+return the error command not found, even if that command does exist in a directory not in your PATH.
+
+Environment variables are system-wide variables built into your system and\
+interface that control the way your system looks, acts, and “feels” to the\
+user, and they are inherited by any child shells or processes. Shell variables,\
+on the other hand, are typically listed in lowercase and are only valid in the\
+shell they are set in.&#x20;
+
+
+
+### When to use `$`?
+
+* Use `$` **when you want to get (read) the value** of the variable.
+* No `$` when **setting** a variable.
+
+
+
+* to view default
+
+```
+env    
+```
+
+* to view all enviroment
+
+```
+set
+```
+
+* to set permenantly
+
+```
+variable=value
+export variable
+```
+
+
+
+* to append to PATH
+
+```
+export PATH=$PATH:/opt/myapp/bin
+```
+
+
+
+## Archives
+
+
+
+* Create archive
+
+```
+tar -cvf new_archive_name file1 file2 file2    
+```
+
+
+
+* Extract archive
+
+```
+tar -xvf HackersArise.tar  
+```
+
+
+
+* Review archive
+
+```
+tar -tvf new_archive_name
+```
+
+
+
+
+
+Compress
+
+Linux has several commands capable of creating compressed files. We will\
+look at these:
+
+\
+• gzip, which uses the extension .tar.gz or .tgz
+
+• bzip2, which uses the extension .tar.bz2\
+• compress, which uses the extension .tar.z
+
+```
+gzip HackersArise.*
+gunzip HackersArise.*
+```
+
+```
+bzip2 HackersArise.*
+bunzip2 HackersArise.*
+```
+
+```
+compress HackersArise.*
+uncompress HackersArise.*
+```
+
+
+
+Bit level copy
+
+```
+dd if=/dev/sdb of=/root/flashcopy
+```
+
 
 

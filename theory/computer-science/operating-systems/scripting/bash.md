@@ -4,7 +4,12 @@
 
 Start running script with **./scriptname.sh**
 
-Start writing scripts with **#!/bin/bash**
+To start, you need to tell your operating system which interpreter you\
+want to use for the script. To do this, enter a shebang, which is a combination of a hash mark and an exclamation mark
+
+Start writing scripts with **#!**
+
+**For bash - #!/bin/bash**
 
 ```
 #!/bin/bash
@@ -38,6 +43,30 @@ This would tell the system to run the script with Python 3 instead.
 `sedcmd=""`
 
 Explanation: This initializes an empty string variable sedcmd. It will later store all the sed substitution commands.
+
+
+
+## Compressing and Archiving
+
+Tar - tape archive
+
+```
+tar -cvf HackersArise.tar hackersarise1 hackersarise2 hackersarise3
+hackersarise1
+```
+
+tar -cvf HackersArise.tar hackersarise1 hackersarise2 hackersarise3\
+hackersarise1
+
+
+
+
+
+
+
+
+
+
 
 
 

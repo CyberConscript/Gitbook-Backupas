@@ -181,7 +181,10 @@ the specified text
 
 System administrators rely heavily on the command line for managing and configuring servers and networks. Many server-side tasks are best performed through the command line, allowing administrators to remotely manage systems and automate routine maintenance tasks.&#x20;
 
-
+Additional drives and other storage devices are\
+mounted upon that filesystem, leading up to the / (root) directory.\
+Mounting in this context simply means attaching drives or disks to the\
+filesystem to make them accessible to the operating system (OS).
 
 ### Users and Permissions: A Security Primer
 
