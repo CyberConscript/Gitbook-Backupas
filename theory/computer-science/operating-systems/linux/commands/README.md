@@ -571,5 +571,28 @@ Bit level copy
 dd if=/dev/sdb of=/root/flashcopy
 ```
 
+## Mounting
 
+In some versions of Linux, you need to mount a drive manually in order to\
+access its content, so this is a skill worth learning. To mount a drive on the\
+filesystem, use the mount command. The mount point for the device should\
+be an empty directory; if you mount a device on a directory that has subdirectories and files, the mounted device will cover the contents of the directory, making them invisible and unavailable. So, to mount the new hard\
+drive sdb1 at the /mnt directory, you would enter the following:
+
+```
+mount /dev/sdb1 /mnt
+```
+
+USB:
+
+```
+mount /dev/sdc1 /media
+```
+
+Unmount. You cannot unmount a device that is busy, so if the system is reading or\
+writing to the device, you will just receive an error.
+
+```
+umount /dev/sdb1
+```
 

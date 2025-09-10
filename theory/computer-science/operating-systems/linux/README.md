@@ -186,6 +186,105 @@ mounted upon that filesystem, leading up to the / (root) directory.\
 Mounting in this context simply means attaching drives or disks to the\
 filesystem to make them accessible to the operating system (OS).
 
+
+
+Originally, Linux represented floppy drives (remember those?) as fd0\
+and hard drives as hda. You will still occasionally see these drive representations on legacy Linux systems, but today most floppy drives are gone\
+(thank goodness). Even so, old legacy hard drives that used an IDE or\
+E-IDE interface are still represented in the form hda. Newer Serial ATA\
+(SATA) interface drives and Small Computer System Interface (SCSI) hard\
+drives are represented as sda. Drives are sometimes split up into sections\
+known as partitions, which are represented in the labeling system with numbers, as you’ll see next.\
+When systems have more than one hard drive, Linux simply names\
+them serially by incrementing the last letter in alphabetical order, so the\
+first drive is sda, and the second drive is sdb, the third drive is sdc, and so\
+on.
+
+At times, you may want to view the partitions on your Linux system to\
+see which ones you have and how much capacity is available in each.
+
+```
+fdisk -l
+
+```
+
+crw------- 1 root root 10,175 May 16 12:44 agpgart\
+These letters represent the two ways that devices transfer data in and\
+out. The c stands for character, and these devices are known, as you might\
+expect, as character devices. External devices that interact with the system\
+by sending and receiving data character by character, such as mice or keyboards, are character devices.\
+
+
+The b stands for the second type: block devices. They communicate in\
+blocks of data (multiple bytes at a time) and include devices like hard drives\
+and DVD drives. These devices require higher-speed data throughput and\
+therefore send and receive data in blocks (many characters or bytes at a\
+time). List Block Devices and Information with **lsblk**
+
+#### Mounting
+
+A storage device must be first physically connected to the filesystem and\
+then logically attached to the filesystem in order for the data to be made\
+available to the operating system. In other words, even if the device is physically attached to the system, it is not necessarily logically attached and available to the operating system.
+
+As mentioned, the point in the directory tree where devices are attached\
+is known as the mount point. The two main mount points in Linux are /mnt\
+and /media. As a general rule, internal hard drives are mounted at /mnt, and\
+external USB devices such as flash drives and external USB hard drives are\
+mounted at /media, though technically any directory can be used
+
+The filesystems that are mounted on a system are kept in a file at /etc/\
+fstab (short for filesystem table).
+
+
+
+#### Getting Information on Mounted Disks
+
+The command df (for disk free) will provide us with basic information on\
+any hard disks or mounted devices, such as CD, DVD, and flash drives,\
+including how much space is being used and how much is available
+
+
+
+### Checking for Errors
+
+***
+
+
+
+* `fsck` (**filesystem check**) finds and repairs filesystem errors.
+* If repair is not possible, it marks bad areas as unusable.
+* Always **unmount the drive before running fsck**.
+
+***
+
+#### Steps:
+
+1.  Try running `fsck` on a mounted device → it fails:
+
+    ```bash
+    fsck /dev/sda1
+    e2fsck: Cannot continue, aborting.
+    ```
+2.  Unmount the device first:
+
+    ```bash
+    umount /dev/sdb1
+    ```
+3.  Run `fsck` with `-p` to auto-fix problems:
+
+    ```bash
+    fsck -p /dev/sdb1
+    ```
+
+***
+
+✅ **Tip:** Never run `fsck` on a mounted filesystem, or you’ll get errors.
+
+***
+
+Do you want me to also make a **cheat-sheet style version** (like a mini reference card with only commands + purpose)?
+
 ### Users and Permissions: A Security Primer
 
 \
