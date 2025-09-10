@@ -279,7 +279,7 @@ including how much space is being used and how much is available
 
 ***
 
-✅ **Tip:** Never run `fsck` on a mounted filesystem, or you’ll get errors.
+
 
 ***
 
