@@ -126,8 +126,7 @@ You will use **tcpdump** to intercept SSH network traffic and attempt to display
     Specifically, do you find any authentication credentials? Also notice details such as the source and destination port numbers, etc.
 10. Were you able to read information about the root user, such as the password?
 
-    YesNo\
-
+    YesNo<br>
 
 ### Comprehensive questions <a href="#comprehensive-questions" id="comprehensive-questions"></a>
 

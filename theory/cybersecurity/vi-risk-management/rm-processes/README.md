@@ -77,8 +77,7 @@ Breaking the terms of the end user licensing agreement (EULA) that imposes condi
 Legacy systems are a source of risk because they no longer receive security updates and because the expertise to maintain and troubleshoot them is a scarce resource.
 
 \
-\
-
+<br>
 
 ## Step 2: Analyze the Risk
 

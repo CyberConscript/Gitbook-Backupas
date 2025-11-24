@@ -10,9 +10,8 @@ _As a full-blown network intrusion prevention system;_
 
 
 
-Capabilities of Snort;\
-
-
+Capabilities of Snort;<br>
+--------------------------
 
 * Live traffic analysis
 * Attack and probe detection
@@ -23,8 +22,7 @@ Capabilities of Snort;\
 * Pre-processors
 * Cross-platform support! (Linux & Windows)
 
-Snort has three main use models;\
-
+Snort has three main use models;<br>
 
 * Sniffer Mode - Read IP packets and prompt them in the console application.
 * Packet Logger Mode - Log all IP packets (inbound and outbound) that visit the network.
@@ -51,8 +49,7 @@ Snort has three main use models;\
 | -X                | Display the full packet details in HEX. (All data)                                                                                                             |
 | -i                | This parameter helps to define a specific network interface to listen/sniff. Once you have multiple interfaces, you can choose a specific interface to sniff.  |
 
-Note that you can use the parameters both in combined and separated form as follows;\
-
+Note that you can use the parameters both in combined and separated form as follows;<br>
 
 * snort -v
 * snort -vd
@@ -114,13 +111,11 @@ IDS/IPS Mode
 | -D        | <p>Background mode.<br></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | -A        | <p>Alert modes;<br></p><p><strong>full</strong>: Full alert mode, providing all possible information about the alert. This one also is the default mode; once you use -A and don't specify any mode, snort uses this mode.</p><p><strong>fast</strong>:  Fast mode shows the alert message, timestamp, source and destination IP, along with port numbers.</p><p><strong>console</strong>: Provides fast style alerts on the console screen.</p><p><strong>cmg</strong>: CMG style, basic header details with payload in hex and text format.</p><p><strong>none</strong>: Disabling alerting.</p> |
 
-Remember that there are several alert modes available in snort;\
-
+Remember that there are several alert modes available in snort;<br>
 
 * console: Provides fast style alerts on the console screen.
 * cmg: `sudo snort -c /etc/snort/snort.conf -A cmg`
-* full: Full alert mode, providing all possible information about the alert.\
-
+* full: Full alert mode, providing all possible information about the alert.<br>
 * fast: `sudo snort -c /etc/snort/snort.conf -A fast`
 * none: Disabling alerting.
 
@@ -141,8 +136,7 @@ Combine reading and alert rules:
 
 <figure><img src="../../../.gitbook/assets/58234314551a2962ad5617cb22591a2b.png" alt=""><figcaption></figcaption></figure>
 
-There are three main rule options in Snort;\
-
+There are three main rule options in Snort;<br>
 
 * General Rule Options - Fundamental rule options for Snort.&#x20;
 * Payload Rule Options - Rule options that help to investigate the payload data. These options are helpful to detect specific payload patterns.
@@ -154,8 +148,7 @@ There are three main rule options in Snort;\
 | <p>Reference<br></p> | <p>Each rule can have additional information or reference to explain the purpose of the rule or threat pattern. That could be a Common Vulnerabilities and Exposures (CVE) id or external information. Having references for the rules will always help analysts during the alert and incident investigation.<br></p>                                                                                                                                                                                                                                                    |
 | <p>Rev<br></p>       | <p>Snort rules can be modified and updated for performance and efficiency issues. Rev option help analysts to have the revision information of each rule. Therefore, it will be easy to understand rule improvements. Each rule has its unique rev number, and there is no auto-backup feature on the rule history. Analysts should keep the rule history themselves. Rev option is only an indicator of how many times the rule had revisions.</p><p>alert icmp any any &#x3C;> any any (msg: "ICMP Packet Found"; sid: 100001; reference:cve,CVE-XXXX; rev:1;)<br></p> |
 
-\
-
+<br>
 
 | <p>Content<br></p>      | <p>Payload data. It matches specific payload data by ASCII, HEX or both. It is possible to use this option multiple times in a single rule. However, the more you create specific pattern match features, the more it takes time to investigate a packet.</p><p>Following rules will create an alert for each HTTP packet containing the keyword "GET". This rule option is case sensitive!</p><ul><li>ASCII mode - alert tcp any any &#x3C;> any 80  (msg: "GET Request Found"; content:"GET"; sid: 100001; rev:1;)</li><li>HEX mode - alert tcp any any &#x3C;> any 80  (msg: "GET Request Found"; content:"|47 45 54|"; sid: 100001; rev:1;)</li></ul>                                                                                                |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

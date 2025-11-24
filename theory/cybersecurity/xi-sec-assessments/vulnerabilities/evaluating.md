@@ -10,8 +10,7 @@ First introduced in 2005, the Common Vulnerability Scoring System (or CVSS) is a
 
 &#x20; 3\. How does this vulnerability interfere with the CIA triad?
 
-In fact, there are so many variables that you have to use a [calculator ](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator)to figure out the score using this framework. A vulnerability is given a classification (out of five) depending on the score that is has been assigned. I have put the Qualitative Severity Rating Scale and their score ranges into the table below. \
-
+In fact, there are so many variables that you have to use a [calculator ](https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator)to figure out the score using this framework. A vulnerability is given a classification (out of five) depending on the score that is has been assigned. I have put the Qualitative Severity Rating Scale and their score ranges into the table below. <br>
 
 | <p>Rating<br></p> | <p>Score<br></p>     |
 | ----------------- | -------------------- |
@@ -48,8 +47,7 @@ VPR uses a similar scoring range as CVSS, which I have also put into the table b
 | High              | <p>7.0 - 8.9<br></p>  |
 | Critical          | <p>9.0 - 10.0<br></p> |
 
-\
-
+<br>
 
 Let's recap some of the advantages and disadvantages of using the VPR framework in the table below.
 

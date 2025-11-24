@@ -96,8 +96,7 @@ Comparison
 
 <table data-header-hidden><thead><tr><th></th><th width="240.33333333333331"></th><th></th></tr></thead><tbody><tr><td><strong>Protocol</strong></td><td><strong>Security Setting</strong></td><td><strong>Port Number(s)</strong></td></tr><tr><td><strong>SMTP (sending mail)</strong></td><td><strong>Encrypted - TLS/STARTTLS</strong></td><td><strong>465</strong></td></tr><tr><td>SMTP (sending mail)</td><td>Encrypted - SSL</td><td>465</td></tr><tr><td>SMTP (sending mail)</td><td>Unencrypted</td><td>25* (or 26)</td></tr><tr><td><strong>POP3 (receiving mail)</strong></td><td><strong>Encrypted - TLS</strong></td><td><strong>995</strong></td></tr><tr><td>POP3 (receiving mail)</td><td>Encrypted - SSL</td><td>995</td></tr><tr><td>POP3 (receiving mail)</td><td>Unencrypted</td><td>110</td></tr><tr><td><strong>IMAP (receiving mail)</strong></td><td><strong>Encrypted - TLS</strong></td><td><strong>993</strong></td></tr><tr><td>IMAP (receiving mail)</td><td>Encrypted - SSL</td><td>993</td></tr><tr><td>IMAP (receiving mail)</td><td>Unencrypted</td><td>143</td></tr></tbody></table>
 
-\
-
+<br>
 
 ## Email composition
 
@@ -112,8 +111,7 @@ The syntax for email messages is known as the [Internet Message Format](https://
 
 Let's look at email headers first.&#x20;
 
-What do you look for when analyzing a potentially malicious email?\
-
+What do you look for when analyzing a potentially malicious email?<br>
 
 Let's start with the following email header fields:
 

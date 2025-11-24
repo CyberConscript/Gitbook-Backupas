@@ -322,8 +322,7 @@ The SGID bit works slightly differently when applied to a directory: when\
 the bit is set on a directory, ownership of new files created in that directory\
 goes to the directory creator’s group, rather than the file creator’s group.\
 This is very useful when a directory is shared by multiple users. All users in\
-that group can execute the file(s), not just a single user.\
-
+that group can execute the file(s), not just a single user.<br>
 
 * Setting The SGID bit is represented as 2 before the regular permissions
 
@@ -415,7 +414,7 @@ a lower priority, thus allowing other processes a higher priority and more resou
 * Commonly Used Kill Signals
 *
 
-    <figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 * ```
   kill -9 6996
   killall -9 zombieprocess

@@ -1,13 +1,11 @@
 # Network artefacts
 
-User Artefacts via Network Traffic Analysis\
-
-
+User Artefacts via Network Traffic Analysis<br>
+-----------------------------------------------
 
 Given that authentication involves network communication, it is only natural that we can also get forensic evidence by analyzing network traffic.
 
-Artefacts from network traffic analysis include:\
-
+Artefacts from network traffic analysis include:<br>
 
 * IP Addresses and Hostnames: These identify who's involved in authentication, tracing request origin, and target.
 * Authentication Protocols: These provide insights into used authentication mechanisms like Kerberos or NTLM, including fields that show the authentication type and security implications.

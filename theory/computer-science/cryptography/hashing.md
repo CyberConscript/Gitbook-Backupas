@@ -216,8 +216,7 @@ Almost identical to the `zip2john` tool, we will use the `rar2john` tool to conv
 * `rar2john`: Invokes the `rar2john` tool
 * `[rar file]`: The path to the RAR file you wish to get the hash of
 * `>`: This redirects the output of this command to another file
-* `[output file]`: This is the file that will store the output from the command\
-
+* `[output file]`: This is the file that will store the output from the command<br>
 
 **Example Usage**
 

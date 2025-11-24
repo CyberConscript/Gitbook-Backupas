@@ -219,8 +219,7 @@ Windows Logon, winlogon.exe
 
 The Windows Logon, winlogon.exe, is responsible for handling the Secure Attention Sequence (SAS). It is the ALT+CTRL+DELETE key combination users press to enter their username & password.
 
-This process is also responsible for loading the user profile. It loads the user's NTUSER.DAT into HKCU, and userinit.exe loads the user's shell. Read more about this process [here](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc939862\(v=technet.10\)?redirectedfrom=MSDN).\
-
+This process is also responsible for loading the user profile. It loads the user's NTUSER.DAT into HKCU, and userinit.exe loads the user's shell. Read more about this process [here](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-2000-server/cc939862\(v=technet.10\)?redirectedfrom=MSDN).<br>
 
 It is also responsible for locking the screen and running the user's screensaver, among other functions. You can read more about this process [here](https://en.wikipedia.org/wiki/Winlogon).\
 Remember from earlier sections, smss.exe launches this process along with a copy of csrss.exe within Session 1.
@@ -264,8 +263,7 @@ Number of Instances:  One
 
 User Account:  Local System
 
-Start Time:  Within seconds of boot time\
-
+Start Time:  Within seconds of boot time<br>
 
 What is unusual?
 

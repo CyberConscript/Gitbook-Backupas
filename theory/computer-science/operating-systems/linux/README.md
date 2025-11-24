@@ -85,8 +85,7 @@ software, offering the latest features and improvements. Examples include\
 Arch Linux and openSUSE Tumbleweed.\
 • **Regular Release**: These distributions follow a regular release schedule,\
 typically, every six months to two years. Ubuntu’s regular releases fall into\
-this category.\
-
+this category.<br>
 
 ## Common Desktop Environments
 
@@ -212,8 +211,7 @@ crw------- 1 root root 10,175 May 16 12:44 agpgart\
 These letters represent the two ways that devices transfer data in and\
 out. The c stands for character, and these devices are known, as you might\
 expect, as character devices. External devices that interact with the system\
-by sending and receiving data character by character, such as mice or keyboards, are character devices.\
-
+by sending and receiving data character by character, such as mice or keyboards, are character devices.<br>
 
 The b stands for the second type: block devices. They communicate in\
 blocks of data (multiple bytes at a time) and include devices like hard drives\

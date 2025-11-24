@@ -1,14 +1,13 @@
 # Anti-Spoofing Records
 
-<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 \
 When organization ‘A’ sends an email, the SPF helps them determine which emails can be sent on their behalf. On the other hand, when organization ‘B’ receives an email, the DKIM checks if the email is sent from a legal source. ie. Organization ‘A’.&#x20;
 
 Businesses that send and receive marketing e-mails must use the DMARC mechanism. By doing so, organizations can protect customer relationships and brand reputation. Also, it helps to create better transparency among new and potential clients. &#x20;
 
-[Symantec Internet Security Threat Report](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/istr-24-cyber-security-threat-landscape) (ISTR) 2019 suggests 48% of malicious email attachments are office files. This calls for a DMARC mechanism that guards a corporate inbox. By incorporating this system, companies get a stronger hold on their inboxes. Also, this framework helps organizations target their emails and gain maximum action from their strategies.  \
-
+[Symantec Internet Security Threat Report](https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/istr-24-cyber-security-threat-landscape) (ISTR) 2019 suggests 48% of malicious email attachments are office files. This calls for a DMARC mechanism that guards a corporate inbox. By incorporating this system, companies get a stronger hold on their inboxes. Also, this framework helps organizations target their emails and gain maximum action from their strategies.  <br>
 
 ## DMARC Records
 
@@ -28,8 +27,7 @@ For example, **securityblue.team** could have the following DMARC record:
 
 _**`v=DMARC1; p=quarantine; rua=mailto:contact@securityblue.team`**_
 
-We can see that the record declares that it’s a DMARC record, that it sets emails to go to the quarantine/spam folder when failing both checks, and that aggregate reports are sent to [contact@securityblue.team](mailto:contact@securityblue.team) of emails that have failed DMARC.\
-
+We can see that the record declares that it’s a DMARC record, that it sets emails to go to the quarantine/spam folder when failing both checks, and that aggregate reports are sent to [contact@securityblue.team](mailto:contact@securityblue.team) of emails that have failed DMARC.<br>
 
 **DMARC Validation System:**
 
@@ -110,6 +108,6 @@ _**`V=DKIM1 <key type> <public key>`**_
 
 
 
-[_**`https://app.gitbook.com/o/ou2J7krcA2BeXXsCkiV9/s/qksILIEF6BQP7B1aJrCk/~/changes/767/various-tutorials/forensics/emails-and-email-crime`**_](https://app.gitbook.com/o/ou2J7krcA2BeXXsCkiV9/s/qksILIEF6BQP7B1aJrCk/\~/changes/767/various-tutorials/forensics/emails-and-email-crime)\
+[_**`https://app.gitbook.com/o/ou2J7krcA2BeXXsCkiV9/s/qksILIEF6BQP7B1aJrCk/~/changes/767/various-tutorials/forensics/emails-and-email-crime`**_](https://app.gitbook.com/o/ou2J7krcA2BeXXsCkiV9/s/qksILIEF6BQP7B1aJrCk/~/changes/767/various-tutorials/forensics/emails-and-email-crime)\
 \
 [_**`https://tryhackme.com/path/outline/soclevel1`**_](https://tryhackme.com/path/outline/soclevel1)

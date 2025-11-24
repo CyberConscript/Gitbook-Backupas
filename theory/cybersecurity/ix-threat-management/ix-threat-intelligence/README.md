@@ -47,8 +47,7 @@ Threat Intel is geared towards understanding the relationship between your opera
 
 ## TI lifecycle
 
-Threat intel is obtained from a data-churning process that transforms raw data into contextualised and action-oriented insights geared towards triaging security incidents. The transformational process follows a six-phase cycle:\
-
+Threat intel is obtained from a data-churning process that transforms raw data into contextualised and action-oriented insights geared towards triaging security incidents. The transformational process follows a six-phase cycle:<br>
 
 #### Direction
 

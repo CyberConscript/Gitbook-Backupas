@@ -13,7 +13,7 @@ Numerous frameworks exist, each slightly varying in how they categorize cybersec
 
 The Statements on Standards for Attestation Engagements (SSAE) are audit specifications developed by the American Institute of Certified Public Accountants (AICPA). These audits are designed to assure consumers that service providers—notably cloud providers, but including any type of hosted or third-party service—meet professional standards ([aicpa.org/interestareas/frc/assuranceadvisoryservices/serviceorganization-smanagement.html](https://www.aicpa.org/interestareas/frc/assuranceadvisoryservices/serviceorganization-smanagement.html)). Within SSAE No. 18 (the current specification), there are several levels of reporting:
 
-#### Statements on Standards for Attestation Engagements (SSAE) Service Organization Control (SOC) <a href="#395c684c-e360-44c7-8830-17be01c9ce75" id="395c684c-e360-44c7-8830-17be01c9ce75"></a>
+#### Statements on Standards for Attestation Engagements (SSAE) Service Organization Control (SOC) <a href="#id-395c684c-e360-44c7-8830-17be01c9ce75" id="id-395c684c-e360-44c7-8830-17be01c9ce75"></a>
 
 * Security Guidance ([cloudsecurityalliance.org/research/guidance](https://cloudsecurityalliance.org/research/guidance))—a best practice summary analyzing the unique challenges of cloud environments and how on-premises controls can be adapted to them.
 * Enterprise reference architecture ([ea.cloudsecurityalliance.org](https://ea.cloudsecurityalliance.org/))—best practice methodology and tools for CSPs to use in architecting cloud solutions. The solutions are divided across a number of domains, such as risk management and infrastructure, application, and presentation services.
@@ -21,7 +21,7 @@ The Statements on Standards for Attestation Engagements (SSAE) are audit specifi
 
 The not-for-profit organization Cloud Security Alliance (CSA) produces various resources to assist cloud service providers (CSP) in setting up and delivering secure cloud platforms. These resources can also be useful for cloud consumers in evaluating and selecting cloud services.
 
-#### Cloud Security Alliance <a href="#875b5f4d-6c5c-4f6b-af7e-6076d6a56b6f" id="875b5f4d-6c5c-4f6b-af7e-6076d6a56b6f"></a>
+#### Cloud Security Alliance <a href="#id-875b5f4d-6c5c-4f6b-af7e-6076d6a56b6f" id="id-875b5f4d-6c5c-4f6b-af7e-6076d6a56b6f"></a>
 
 Where ISO 27K is a cybersecurity framework, ISO 31K ([iso.org/iso-31000-risk-management.html](https://www.iso.org/iso-31000-risk-management.html)) is an overall framework for enterprise risk management (ERM). ERM considers risks and opportunities beyond cybersecurity by including financial, customer service, competition, and legal liability factors. ISO 31K establishes best practices for performing risk assessments.
 
@@ -37,13 +37,13 @@ Benchmarks and Secure Configuration Guides
 
 Although a framework gives a "high-level" view of how to plan IT services, it does not generally provide detailed implementation guidance. At a system level, the deployment of servers and applications is covered by benchmarks and secure configuration guides.
 
-#### Center for Internet Security (CIS) <a href="#7a6184a7-7fb5-4e92-bbec-2945e5d74bcc" id="7a6184a7-7fb5-4e92-bbec-2945e5d74bcc"></a>
+#### Center for Internet Security (CIS) <a href="#id-7a6184a7-7fb5-4e92-bbec-2945e5d74bcc" id="id-7a6184a7-7fb5-4e92-bbec-2945e5d74bcc"></a>
 
 The Center for Internet Security ([cisecurity.org](https://cisecurity.org)) is a not-for-profit organization (founded partly by The SANS Institute). It publishes the well-known "The CIS Critical Security Controls." The CIS-RAM (Risk Assessment Method) can be used to perform an overall evaluation of security posture ([learn.cisecurity.org/cis-ram](https://learn.cisecurity.org/cis-ram)).
 
 CIS also produces benchmarks for different aspects of cybersecurity. For example, there are benchmarks for compliance with IT frameworks and compliance programs, such as PCI DSS, NIST 800-53, SOX, and ISO 27000. There are also product-focused benchmarks, such as for Windows Desktop, Windows Server, macOS, Linux, Cisco, web browsers, web servers, database and email servers, and VMware ESXi. The CIS-CAT (Configuration Access Tool) can be used with automated vulnerability scanners to test compliance against these benchmarks ([cisecurity.org/cybersecurity-tools/cis-cat-pro/cis-cat-faq](https://www.cisecurity.org/cybersecurity-tools/cis-cat-pro/cis-cat-faq/)).
 
-#### OS/Network Appliance Platform/Vendor-specific Guides <a href="#86691549-8cd7-4783-9a12-91b19fdfa983" id="86691549-8cd7-4783-9a12-91b19fdfa983"></a>
+#### OS/Network Appliance Platform/Vendor-specific Guides <a href="#id-86691549-8cd7-4783-9a12-91b19fdfa983" id="id-86691549-8cd7-4783-9a12-91b19fdfa983"></a>
 
 Operating system (OS) best practice configuration lists the settings and controls that should be applied for a computing platform to work in a defined role, such as client workstation, authentication server, network switch/router/firewall, web/application server, and so on.
 
@@ -58,7 +58,7 @@ There is also detailed guidance available from several organizations to cover bo
 
 Most application architectures use a client/server model. This means that part of the application is a client software program, installed and run on separate hardware to the server application code. The client interacts with the server over a network. Attacks can therefore be directed at the local client code, at the server application, or at the network channel between them. As well as coding issues, the applications need to take account of platform issues. The client application might be running in a computing host alongside other, potentially malicious, software. Code that runs on the client should not be trusted. The server-side code should implement routines to verify that input conforms to what is expected.
 
-## Web Server Applications <a href="#1dabaca3-c0fc-4e04-bc32-5e40e740cfef" id="1dabaca3-c0fc-4e04-bc32-5e40e740cfef"></a>
+## Web Server Applications <a href="#id-1dabaca3-c0fc-4e04-bc32-5e40e740cfef" id="id-1dabaca3-c0fc-4e04-bc32-5e40e740cfef"></a>
 
 The Open Web Application Security Project (OWASP) is a globally recognized non-profit organization focused on improving the security of software. OWASP provides valuable resources, tools, and knowledge to help organizations build and maintain secure applications and websites. It operates as a community-driven effort involving security professionals, developers, educators, and organizations with the shared goal of enhancing web application security.
 
@@ -78,8 +78,7 @@ Key Aspects of OWASP:
 
 The OWASP community and its resources have had a significant impact on shaping the way organizations approach application security. By providing free and accessible knowledge, tools, and best practices, OWASP empowers developers and security practitioners to build more secure software and defend against cyber threats. It has become a central hub for professionals interested in advancing the security of web applications and technology.
 
-\
-
+<br>
 
 ## **Cybersecurity Regulations, Standards, and Legislation:**
 
@@ -145,7 +144,7 @@ Non-compliance with the GDPR can result in significant fines. The regulation has
 
 It's important to note that the GDPR is a complex regulation with various nuances and intricacies. Organizations that handle personal data, particularly those dealing with EU citizens' data, need to carefully understand and implement its requirements to ensure compliance and protect individuals' privacy.them.
 
-## Laws and Regulations at Different Levels <a href="#2c80cc8e-e016-4e87-83d2-14d62bcc651d" id="2c80cc8e-e016-4e87-83d2-14d62bcc651d"></a>
+## Laws and Regulations at Different Levels <a href="#id-2c80cc8e-e016-4e87-83d2-14d62bcc651d" id="id-2c80cc8e-e016-4e87-83d2-14d62bcc651d"></a>
 
 Navigating compliance matters can be intricate due to the diverse origins of laws. Laws stem from various sources, leading to a complex landscape. For instance, the General Data Protection Regulation (GDPR) isn't applicable to American data subjects; however, it does extend to American companies that gather or process personal data of individuals within EU countries. Within the United States, legal jurisdiction includes national federal laws, state laws, as well as a legal framework applicable to U.S. territories such as Puerto Rico, the U.S. Virgin Islands, Guam, and American Samoa.
 
@@ -157,4 +156,4 @@ Moreover, industry-specific mandates can give rise to compliance concerns. An ex
 
 Should you seek more comprehensive insights into U.S. privacy regulations, Varonis' blog offers a valuable overview.
 
-It's worth noting that the landscape of laws and regulations is dynamic, often evolving to address new challenges and technologies. Staying informed and updated is crucial for maintaining compliance.\
+It's worth noting that the landscape of laws and regulations is dynamic, often evolving to address new challenges and technologies. Staying informed and updated is crucial for maintaining compliance.<br>

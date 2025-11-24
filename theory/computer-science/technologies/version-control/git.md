@@ -48,8 +48,7 @@ git config --global user.email "your_email"
 git --version
 ```
 
-This should output the version number of Git that you just installed.\
-
+This should output the version number of Git that you just installed.<br>
 
 ## Working with Git repository
 
