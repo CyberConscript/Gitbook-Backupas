@@ -44,7 +44,13 @@ reflects business priorities and supports the business.\
 • **Metrics**/**reporting** This includes the formal measurement of processes and\
 controls so that management understands and can measure them.
 
+**Mission** - Why does the organization exist? Who does it serve and through what\
+products and services?
 
+&#x20;**Goals and objectives** What goals does the organization hope to achieve, and\
+when does it want to accomplish them?\
+&#x20;**Strategy** What activities need to occur to fulfill the organization’s goals and\
+objectives?
 
 ## Governance roles and responsibilities
 

@@ -243,7 +243,7 @@
     * [OS](learning-list/skills/os/README.md)
       * [Linux](learning-list/skills/os/linux/README.md)
         * [Directories](learning-list/skills/os/linux/directories.md)
-  * [Certifications](learning-list/certifications/README.md)
+  * [Certifications](learning-list/page-1.md)
     * [CISM](learning-list/certifications/cism.md)
 * [Quick cybersecurity intro](quick-cybersecurity-intro.md)
 * [Cyber domains](cyber-domains.md)
