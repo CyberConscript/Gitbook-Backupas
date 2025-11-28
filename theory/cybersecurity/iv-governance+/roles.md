@@ -271,3 +271,213 @@ executive management and possibly the board of directors.\
 business objectives are developed with full consideration for risk. The\
 C-level security person has free access to executive management and the\
 board of directors.
+
+
+
+## Data Management
+
+\
+Positions related to data management are responsible for developing and implementing\
+database designs and maintaining databases. These positions are concerned with data\
+within applications and data flows between applications.\
+• Data manager This position is responsible for data architecture and management\
+in larger organizations.\
+• Database architect This person develops logical and physical designs of data\
+models for applications. With sufficient experience, this person may also design\
+an organization’s overall data architecture.\
+• Big data architect This position develops data models and data analytics for\
+large, complex data sets.\
+• Database administrator (DBA) This position builds and maintains databases\
+designed by the database architect and databases that are included as part of\
+purchased applications. The DBA monitors databases, tunes them for performance\
+and efficiency, and troubleshoots problems.\
+• Database analyst This person performs tasks that are junior to the database\
+administrator, carrying out routine data maintenance and monitoring tasks.\
+• Data scientist This position applies scientific methods, builds processes, and\
+implements systems to extract knowledge or insights from data
+
+
+
+## Network Management
+
+\
+Positions in network management are responsible for designing, building, monitoring,\
+and maintaining voice and data communications networks, including connections to\
+outside business partners and the Internet.
+
+• Network architect This position designs data and voice networks and designs\
+changes and upgrades to networks to meet new organization objectives.\
+• Network engineer This person implements, configures, and maintains network\
+devices such as routers, switches, firewalls, and gateways.
+
+• Network administrator This position performs routine tasks in the network,\
+such as making configuration changes and monitoring event logs.\
+• Telecom engineer Those serving in this role work with telecommunications\
+technologies such as telecom services, data circuits, phone systems, conferencing\
+systems, and voicemail systems.
+
+
+
+
+
+## Systems Management
+
+\
+Positions in systems management are responsible for the architecture, design, building,\
+and maintenance of servers and operating systems. This may include desktop operating\
+systems as well. Personnel in these positions also design and manage virtualized environments and microsegmentation.\
+• Systems architect This position is responsible for the overall architecture of\
+systems (usually servers) in terms of the internal architecture of a system and the\
+relationship between systems. This person is generally responsible for designing\
+services such as authentication, e-mail, and time synchronization.\
+• Systems engineer This person is responsible for designing, building, and\
+maintaining servers and server operating systems.\
+• Storage engineer This position is responsible for designing, building, and\
+maintaining storage subsystems.\
+• Systems administrator This administrator is responsible for performing\
+maintenance and configuration operations on systems.
+
+
+
+## IT Operations
+
+\
+Positions in operations are responsible for day-to-day operational tasks that may include\
+networks, servers, databases, and applications.\
+• Operations manager This position is responsible for overall operations carried\
+out by others. Responsibilities include establishing operations and shift schedules.\
+• Operations analyst This person may be responsible for developing operational\
+procedures; examining the health of networks, systems, and databases; setting\
+and monitoring the operations schedule; and maintaining operations records.\
+• Controls analyst This analyst monitors batch jobs, data entry work, and other\
+tasks to make sure they are operating correctly.\
+• Systems operator This position is responsible for monitoring systems and\
+networks, performing backup tasks, running batch jobs, printing reports, and\
+performing other operational tasks.\
+• Media manager This position is responsible for maintaining and tracking the\
+use and whereabouts of backup volumes and other media.
+
+
+
+## Governance, Risk, and Compliance
+
+\
+Positions in governance, risk, and compliance (GRC) are responsible for a wide range of\
+activities within a security organization.\
+• Risk manager This person is responsible for performing risk assessments and\
+maintaining the risk register.\
+• Policy manager This position is responsible for maintaining security and\
+privacy policy documents and related information. This person works closely\
+with the risk manager, identifying risks that may identify the need for new and\
+updated policy.\
+• Controls manager This position is responsible for maintaining security\
+controls, advising control owners on responsibilities and expectations, and\
+assessing controls for effectiveness.\
+• Third-party risk management This position is responsible for assessing new\
+and existing vendors and service providers, identifying and reporting on risks,\
+and developing mitigation strategies.\
+• Information governance This position is responsible for data classification\
+policy and serves as a governance function to manage the organization’s use\
+of information.\
+• Security awareness training This person is responsible for developing and\
+delivering content of various types to enable the workforce to understand their\
+information security and privacy responsibilities.
+
+
+
+## Business Resilience
+
+\
+Personnel in positions related to business resilience are responsible for various activities\
+that ensure the organization can continue operations despite disruptive events.\
+• Crisis communications This position is responsible for developing and\
+executing communications plans to keep employees, customers, regulators,\
+and shareholders informed of business emergencies and disruptive events. This\
+responsibility may lie with corporate communications, or it could be separate.\
+• Crisis management These positions are responsible for developing and\
+executing plans to manage business emergencies when they occur.\
+• Business continuity planning These positions are responsible for conducting\
+business impact analysis and criticality analysis and for developing and testing\
+business continuity plans.\
+• Disaster recovery planning These positions are responsible for developing\
+and testing procedures that ensure information systems’ continued operation\
+and recovery when disruptive events occur.
+
+
+
+## Security Operations
+
+\
+Positions in security operations are responsible for designing, building, and monitoring security systems and security controls to ensure information systems’ confidentiality,\
+integrity, and availability.\
+• Security architect This person is responsible for designing technical security\
+controls, systems, and solutions in contexts such as authentication, audit logging,\
+intrusion detection systems (IDSs), intrusion prevention systems, access control,\
+antimalware, and firewalls.\
+• Security engineer This position is responsible for designing, building, and\
+maintaining security services and systems designed by the security architect.\
+• Security analyst This position is responsible for examining logs from firewalls\
+and IDSs and audit logs from systems and applications. This person may also be\
+responsible for issuing security advisories to others in IT.\
+• Forensics analyst This position is responsible for conducting forensic\
+investigations on information systems to identify the presence and effect of\
+malware, misbehavior of employees, and actions taken by intruders.\
+• Penetration tester This position is responsible for using tools to identify\
+vulnerabilities in information systems and advising system owners to develop\
+mitigation strategies. Most organizations outsource this function to outside\
+firms that perform penetration tests on a periodic (usually annual) basis.\
+• Access administrator This position is responsible for accepting approved\
+requests for user access management changes and performing the necessary\
+changes at the network, system, database, or application level. Often, this\
+position consists of personnel in network and systems management functions;\
+only in larger organizations is user account management performed in security or\
+even in a separate user access department.
+
+
+
+## Security Audit
+
+\
+Positions in security audit are responsible for examining process design and verifying the\
+effectiveness of security controls.\
+• Security audit manager This position is responsible for audit operations and\
+scheduling and managing audits.\
+• Security auditor This position is responsible for performing internal audits of\
+IT controls to ensure that they are operated properly
+
+## Service Desk
+
+\
+Positions at the service desk are responsible for providing frontline support services to\
+IT and IT customers.\
+• Service desk manager This position serves as a liaison between end users and\
+the IT service desk department.\
+• Service desk analyst This person is responsible for providing frontline user\
+support services to personnel in the organization. This is sometimes known as a\
+help-desk analyst.\
+• Technical support analyst This position is responsible for providing technical\
+support services to other IT personnel and IT customers.
+
+Quality Assurance
+-----------------
+
+\
+Positions in quality assurance are responsible for evaluating IT systems and processes to\
+confirm their accuracy and effectiveness.\
+• QA manager This position is responsible for facilitating quality improvement\
+activities throughout the IT organization.\
+• QC manager This position is responsible for testing IT systems and applications\
+to confirm whether they are free of defects.<br>
+
+## Other Roles
+
+\
+Other roles in IT and security organizations include the following:\
+• Vendor manager This person is responsible for maintaining business relationships\
+with external vendors, measuring their performance, and handling business issues.\
+• Business analyst This position is responsible for performing tasks supporting\
+numerous functions in IT, information security, and privacy organizations.\
+• Project manager This position is responsible for creating project plans and\
+managing IT and security projects.\
+• Finance manager This person is responsible for financial planning and budget\
+management for IT
