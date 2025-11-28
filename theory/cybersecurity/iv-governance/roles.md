@@ -173,5 +173,101 @@ as balanced among other business initiatives and priorities.
 
 
 
+## Business Process and Business Asset Owners
+
+Business process and business asset owners are typically nontechnical personnel in\
+management positions within an organization. Although they may not be technology\
+experts, their business processes are often enhanced by IT in business applications and\
+other capabilities in many organizations.
+
+The responsibilities of business process and business asset owners include the following:\
+• Access grants Asset owners decide whether individuals or groups should be\
+given access to the asset and the level and type of access. Example access types\
+include combinations of read-only, read-write, create, and delete.\
+• Access revocation Asset owners should also decide when individuals or groups\
+no longer require access to an asset, signaling the need to revoke that access.\
+• Access reviews Asset owners should periodically review access lists to determine\
+whether each person and group should continue to have access. Access reviews\
+may also include access activity reviews to determine whether people who have\
+not accessed assets still require access.\
+• Configuration Asset owners determine the configuration needed for assets\
+and applications, ensuring their proper function and support of applications and\
+business processes.\
+• Function definition In the case of business applications and services, asset\
+owners determine which functions will be available, how they will work, and\
+how they will support business processes. Typically, this definition is constrained\
+by functional limitations within an application, service, or product.\
+• Process definition Process owners determine the sequence, steps, roles, and\
+actions carried out in their business processes.\
+• Physical location Asset owners determine the physical location of their assets.\
+Factors influencing choices of location include physical security, proximity to\
+other assets, proximity to relevant personnel, and data protection and privacy laws.
 
 
+
+## Custodial Responsibilities
+
+\
+In many organizations, asset owners are not involved in the day-to-day activities related\
+to managing their assets, particularly when those assets are information systems and the\
+data stored within them. Instead, somebody (or several people) in the IT organization\
+acts as a proxy for asset owners and makes access grants and other decisions on their\
+behalf. While this is a common practice, it is often carried too far, resulting in the asset\
+owner being virtually uninvolved and uninformed. Instead, asset owners should be aware\
+of, and periodically review, activities carried out by people, groups, and departments\
+making decisions on their behalf.
+
+
+
+## Chief Information Security Officer
+
+\
+The CISO is the highest-ranking security person in an organization. A CISO will\
+develop business-aligned security strategies that support current and future business\
+initiatives and will be responsible for developing and operating the organization’s\
+information risk program, developing and implementing security policies, developing and implementing security incident response, and perhaps developing operational\
+security functions.\
+The CISO reports to the COO or the CEO in some organizations. In other organizations, the CISO may report to the CIO, chief legal counsel, or another person in\
+the organization.\
+Other similar titles with similar responsibilities include the following:\
+• Chief security officer (CSO) This position generally has the responsibilities\
+of a CISO, plus responsibilities for non-information assets such as business\
+equipment and work centers. A CSO often is responsible for workplace safety.\
+• Chief information risk officer (CIRO) Generally, this represents a change of\
+approach to the CISO position, from protection-based to risk-based.\
+• Chief risk officer (CRO) This position is responsible for all aspects of risk,\
+including information, business, compliance, and market risk. This role is separate\
+from IT. Note that some organizations have a chief revenue officer (also CRO);\
+ensure that you understand how the organization structures its leadership roles.\
+Many organizations do not have a CISO but instead have a director or manager of\
+information security who reports to someone further down in the organization chart.
+
+The one arena where a CISO may not be required is in small to medium-sized\
+organizations where a full-time strategic leader may not be cost effective. It is advisable\
+to contract with a virtual CISO (vCISO) to assist with strategy and planning. When\
+organizations do not require or cannot afford a full-time person, this approach enables\
+the organization to benefit from the knowledge of a seasoned security professional to\
+assist in driving the information security program forward.
+
+
+
+Rank Sets Tone and Gives Power\
+A glance at the title of the highest-ranking information security position in a large\
+organization reveals much about executive management’s opinion of information\
+security. Executive attitudes about security are reflected in the security manager’s\
+title and may resemble the following:\
+• Security manager Information security is tactical and often viewed as\
+consisting only of antivirus software and firewalls. The security manager has\
+no visibility into the development of business objectives. Executives consider\
+security as unimportant and based on technology only.\
+• Security director Information security is essential and has moderate\
+decision-making capability but little influence on the business. A directorlevel person in a larger organization may have little visibility of overall\
+business strategies and little or no access to executive management or the\
+board of directors.\
+• Vice president Information security is strategic but does not influence\
+business strategy and objectives. The vice president will have access to\
+executive management and possibly the board of directors.\
+• CISO/CIRO/CRO/CSO/vCISO Information security is strategic, and\
+business objectives are developed with full consideration for risk. The\
+C-level security person has free access to executive management and the\
+board of directors.
