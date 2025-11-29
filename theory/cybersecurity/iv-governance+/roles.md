@@ -1,5 +1,7 @@
 # Roles
 
+<figure><img src="../../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+
 ## RACI Charts
 
 \
@@ -139,11 +141,13 @@ been outsourced.
 
 
 
-## Security Steering Committee
+<figure><img src="../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+
+## IT Steering Committee&#x20;
 
 Many organizations form a security steering committee consisting of stakeholders\
 from many (if not all) of the organization’s business units, departments, functions,\
-and principal locations. A steering committee may have a variety of responsibilities,\
+and principal locations. Advices board of the directors. Steering committee may have a variety of responsibilities,\
 including the following:\
 • **Risk treatment deliberation and recommendation** The committee may\
 discuss relevant risks, discuss potential avenues of risk treatment, and develop\
@@ -171,7 +175,118 @@ as balanced among other business initiatives and priorities.
 
 
 
+## IT Security **Strategy Committee**
 
+***
+
+**Purpose**
+
+* Ensure IT supports and enables business strategy.
+* Align IT investments with organizational goals.
+* Provide governance over major IT decisions and priorities.
+* Oversee risk management related to technology.
+
+***
+
+**Responsibilities**
+
+1. **Strategic alignment**
+   * Validate that IT plans match business objectives.
+   * Approve IT roadmaps and digital transformation initiatives.
+2. **Portfolio and investment oversight**
+   * Review and prioritize IT projects.
+   * Approve budgets for major IT investments.
+   * Monitor ROI of technology initiatives.
+3. **Risk and compliance**
+   * Assess cyber risk, regulatory requirements, data protection.
+   * Ensure IT controls, policies, and standards are adequate.
+4. **Performance monitoring**
+   * Review IT KPIs (uptime, security metrics, cost efficiency).
+   * Evaluate progress of key IT programs.
+5. **Guidance and escalation**
+   * Provide direction on critical architectural, security, or vendor decisions.
+   * Act as escalation point for IT leadership.
+
+***
+
+**Authority**
+
+* Approve or reject strategic IT projects.
+* Allocate or influence IT budget.
+* Set IT governance standards and policy framework.
+* Direct CIO/CTO on priorities and required outcomes.
+* Escalate decisions to the executive board when above committee scope.
+
+***
+
+**Membership**
+
+Common structure includes both business and IT leadership:
+
+1. **Chairperson**\
+   Typically a senior executive (e.g., COO, CFO).
+2. **Permanent Members**
+   * CIO / CTO
+   * CISO (for security alignment)
+   * Heads of key business units
+   * CFO or finance representative
+   * Enterprise architect lead (optional)
+3. **Advisory or rotating members**
+   * IT project managers
+   * Risk/compliance officers
+   * External consultants/experts (non-voting)
+
+***
+
+#### **Summary (very short)**
+
+IT Strategy Committee aligns IT with business goals, approves major IT investments, oversees risk, holds authority over IT strategy decisions, and includes senior executives, CIO/CTO, CISO, and business leaders.
+
+**IT Strategy Committee**
+
+* A **board-level** governance body.
+* Focuses on **long-term direction** of IT.
+* Ensures IT supports overall business strategy.
+* Advises executive board; high-level oversight.
+* Does **not** manage day-to-day projects.
+* Composition: board members, senior executives, sometimes CIO as advisor.
+
+**Main focus:**\
+Strategic alignment, risk oversight, future technology vision, major investment direction.
+
+***
+
+**IT Steering Committee**
+
+* An **executive/operational** governance body.
+* Ensures IT strategy is **executed**.
+* Prioritizes and manages **IT projects**, budgets, and resources.
+* Provides guidance to IT teams and monitors progress.
+* Directly involved with IT operations and project execution.
+* Composition: CIO/CTO, IT directors, business unit leaders.
+
+**Main focus:**\
+Project governance, resource management, performance review, issue escalation.
+
+***
+
+**Key Differences**
+
+* Strategy committee = **board-level**; steering committee = **management-level**.
+* Strategy = **direction + alignment**; steering = **execution + prioritization**.
+* Strategy committee sets expectations; steering committee ensures delivery.
+
+
+
+## Project steering committee
+
+Responsible to ensure project is progressing.
+
+Monitor costs and timetable.&#x20;
+
+Responsible for all project costs and schedule.&#x20;
+
+Take corrective actions.
 
 ## Business Process and Business Asset Owners
 
