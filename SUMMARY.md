@@ -242,6 +242,10 @@
 ***
 
 * [Learning list](learning-list/README.md)
+  * [Interviuveriai](learning-list/interviuveriai.md)
+  * [Apie save](learning-list/apie-save.md)
+  * [Klausimai ignitis](learning-list/klausimai-ignitis.md)
+  * [Mano atlikti darbai](learning-list/mano-atlikti-darbai.md)
   * [Skills](learning-list/skills/README.md)
     * [Command line windows](learning-list/skills/command-line-windows.md)
     * [Search Skills](learning-list/skills/search-skills.md)
