@@ -2,7 +2,14 @@
 
 Welcome to the Splunk tutorial
 
+## Start splunk
 
+On linux machine
+
+```
+cd /home/<user>/splunk/bin
+./splunk start
+```
 
 ## Logging into Splunk&#x20;
 
