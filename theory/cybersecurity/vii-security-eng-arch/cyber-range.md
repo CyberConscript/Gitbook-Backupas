@@ -31,12 +31,20 @@ Seconion
 | em0       | SPAN | \*                 | 8F  | VM5      |
 | em1       | WAN  | 192.168.114.128/24 | 67  | VM8      |
 
-Splunk
+#### Splunk
 
-| Interface | Name | Range              | MAC | Addapter |
-| --------- | ---- | ------------------ | --- | -------- |
-| em0       | SPAN | \*                 | 8F  | VM5      |
-| em1       | WAN  | 192.168.114.128/24 | 67  | VM8      |
+uburoot:uburootas
+
+admin:admin12345
+
+| Name   | Range              | MAC | Addapter |
+| ------ | ------------------ | --- | -------- |
+| Splunk | 192.168.5.1/24     | d2  | VM4      |
+| WAN    | 192.168.114.129/24 | c8  | VM8      |
+
+{% embed url="http://192.168.114.129:8000" %}
+
+sadminas:splunkrootas
 
 Windows2019
 
