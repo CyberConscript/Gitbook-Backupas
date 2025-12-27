@@ -10,7 +10,7 @@ charts to denote key responsibilities in business processes, projects, tasks, an
 activities. A RACI chart assigns levels of responsibility to individuals and groups.\
 The development of a RACI chart helps personnel determine roles for various business activities. A typical RACI chart follows
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 The four roles in a RACI chart are defined as follows:\
 • **Responsible** The person or group that performs the actual work or task.\
@@ -18,12 +18,11 @@ The four roles in a RACI chart are defined as follows:\
 accurate, and timely execution of the work. Often this is a person who\
 manages those in the Responsible role.\
 • **Consulted** One or more people or groups consulted for their opinions,\
-experience, or insight. People in the Consulted role may be a subject-matter\
+experience, or insight before action is taken. People in the Consulted role may be a subject-matter\
 expert for the work or task, or an owner, steward, or custodian of an asset\
 associated with the work or task. Communication with the Consulted role\
 is two-way.\
-• **Informed** One or more people or groups informed by those in other roles.\
-Depending on the process or task, people in the Informed role may be told\
+• **Informed** One or more people or groups informed by those in other roles about the progress of the task. Depending on the process or task, people in the Informed role may be told\
 of an activity before, during, or after its completion. Communication with\
 the Informed role is one-way.
 
@@ -47,15 +46,22 @@ segregation of duties conflict.
 
 
 
+| Task                                                   | Responsible         | Accountable         | Consulted           | Informed                  |
+| ------------------------------------------------------ | ------------------- | ------------------- | ------------------- | ------------------------- |
+| **Vulnerability assessment of network infrastructure** | IT security analyst | IT security manager | IT ops, network ops | Executive leadership team |
+|                                                        |                     |                     |                     |                           |
+|                                                        |                     |                     |                     |                           |
+
+
+
 ## Board of directors
 
-An organization’s board of directors oversees activities in the organization. Depending on\
+An organization’s board of directors oversees activities in the organization. Sets business goals. Depending on\
 the type of organization, board members may be elected by shareholders or constituents,\
 or they may be appointed. This role can be either paid or voluntary in nature.
 
 Activities performed by the board of directors, as well as directors’ authority, are\
-usually defined by a constitution, bylaws, or external regulation. The board is typically accountable to the organization’s owners or, in the case of a government body,\
-to the electorate.\
+usually defined by a constitution, by laws, or external regulation. The board is typically accountable to the organization’s owners or, in the case of a government body, to the electorate.\
 In many cases, board members have fiduciary duty. This means they are accountable to shareholders or constituents to act in the organization’s best interests with\
 no appearance of impropriety, conflict of interest, or ill-gotten profit resulting from\
 their actions.

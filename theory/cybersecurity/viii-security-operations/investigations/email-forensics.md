@@ -12,7 +12,7 @@ The various levels in email forensics are comprised of collecting data in a read
 
 
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Email headers consist of all the important details of the email, so this makes email header analysis a vital step in an investigation. An investigator can obtain the following information from an email header. Email header analysis gives us information about the attacker, like SMTP server detail, IP address of attacker and victim, timestamp when email was sent, and attachment file information. Tools for analysis like www.ip-adress.com, emailtracker pro, MailXmainer, MX Toolbox, etc.&#x20;
 

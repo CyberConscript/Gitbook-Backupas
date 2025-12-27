@@ -12,7 +12,7 @@ and business continuity planning.
 fulfillment of the security strategy, which itself will continue to align with the business\
 and the business objectives.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The purpose of security governance is to align the organization’s security program\
 with the needs of the business. Information security governance refers to a collection of\
@@ -47,10 +47,27 @@ controls so that management understands and can measure them.
 **Mission** - Why does the organization exist? Who does it serve and through what\
 products and services?
 
-&#x20;**Goals and objectives** What goals does the organization hope to achieve, and\
-when does it want to accomplish them?\
-&#x20;**Strategy** What activities need to occur to fulfill the organization’s goals and\
+**Goals** what does the organization hope to achieve, and\
+when does it want to accomplish them:
+
+* High level strategic outcomes the organization wants to achieve.
+* Broad and long term
+* Direction setting
+* Not directly measurable
+
+**Objectives**:
+
+* Specific, measurable steps to achieve a goal
+* short to medium term
+* Action oriented
+* Measurable
+
+**Strategy** What activities need to occur to fulfill the organization’s goals and\
 objectives?
+
+
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Governance roles and responsibilities
 

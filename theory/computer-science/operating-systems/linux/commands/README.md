@@ -414,7 +414,7 @@ a lower priority, thus allowing other processes a higher priority and more resou
 * Commonly Used Kill Signals
 *
 
-    <figure><img src="../../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * ```
   kill -9 6996
   killall -9 zombieprocess
